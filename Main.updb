@@ -2,6 +2,9 @@
 #
 # Github: https://github.com/TechsCode/UltraPermissionsDatabase
 #
+# Format: (Plugin)+(Permission)+(Description)+(Commands (seperated with ,))
+#
+exampleplugin+example.permissions+An example Permission
 citizens+citizens.admin+This allows players to edit 'server' owned NPCs.
 citizens+citizens.npc.+An unknown description
 CratesPlus+cratesplus.admin+Access to all /crate commands. Defaults to OP.+/crate settings,/crate reload,/crate create,/crate rename,/crate delete,/crate crate,/crate key
