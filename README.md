@@ -12,7 +12,7 @@ Every line represents a Permission.
 
 Optionally you can also add Commands like this:
 
-``(PluginName)+(Permission)+(Description)+`(Commands seperated with ,`
+``(PluginName)+(Permission)+(Description)+`(Commands seperated with ,``
 
 ### Example
 
