@@ -3532,3 +3532,18 @@ LiteBans+litebans.exempt.warn+Exempt from warnings.
 LiteBans+litebans.exempt.kick+Exempt from being kicked.
 LiteBans+litebans.exempt.bypass+Bypass exempt permissions.
 LiteBans+litebans.exempt.dupeip_join+Exempt from dupeip checks on join.
+UltimatePets+ultimatepets.pets.[Pet-Type]+With this permission the player can buy the pet
+UltimatePets+ultimatepets.colouredName+With this permission player can set a colored name to the pe
+UltimatePets+ultimatepets.commands.away+With this permission the player can use "/pet away" command
+UltimatePets+ultimatepets.commands.here+With this permission the player can use "/pet here" command
+UltimatePets+ultimatepets.commands.name+With this permission the player can use "/pet name" command
+UltimatePets+ultimatepets.commands.info+With this permission the player can use "/pet info" command
+UltimatePets+ultimatepets.commands.gui+With this permission the player can use "/pet gui" command
+UltimatePets+ultimatepets.commands.change+With this permission the player can use "/pet change" command
+UltimatePets+ultimatepets.commands.shop+With this permission the player can use "/pet shop" command
+UltimatePets+ultimatepets.adminCommands.delete+With this permission the player can use "/ultimatepets delete" command
+UltimatePets+ultimatepets.adminCommands.give+With this permission the player can use "/ultimatepets give" command
+UltimatePets+ultimatepets.adminCommands.giveEffect+With this permission the player can use "/ultimatepets giveEffect" command
+UltimatePets+ultimatepets.adminCommands.info+With this permission the player can use "/ultimatepets info" command
+UltimatePets+ultimatepets.adminCommands.reload+With this permission the player can use "/ultimatepets reload" command
+UltimatePets+ultimatepets.adminCommands+convert+With this permission the player can use "/ultimatepets convert" command
