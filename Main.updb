@@ -3547,3 +3547,24 @@ UltimatePets+ultimatepets.adminCommands.giveEffect+With this permission the play
 UltimatePets+ultimatepets.adminCommands.info+With this permission the player can use "/ultimatepets info" command
 UltimatePets+ultimatepets.adminCommands.reload+With this permission the player can use "/ultimatepets reload" command
 UltimatePets+ultimatepets.adminCommands+convert+With this permission the player can use "/ultimatepets convert" command
+Heads+heads.menu+Permission to use the /heads command to open and get heads from the menu.
+Heads+heads.category.<category>+Permission to use a specific category in the menu. All players should have these permissions by default, so you will have to add them as negative permissions to stop someone using a category
+Heads+heads.search+Permission to use the /heads search command to search for heads in the menu.
+Heads+heads.get+Permission to use the /heads get command to get a head from a players name.
+Heads+heads.reload+Permission to use the /heads reload command to reload the Heads config files.
+Heads+heads.add+Permission to use the /heads add command to add heads to the menu.
+Heads+heads.hand+Permission to use the /heads hand command to add heads from their hand to the menu.
+Heads+heads.remove+Permission to use the /heads remove command to remove heads from the menu.
+Heads+heads.random+Permission to use the /heads random [player] command to get or give a random head
+Heads+heads.cost+Permission to use the /heads cost command to set the cost of heads in the menu.
+Heads+heads.randomcost+Permission to use the /heads categorycost command to set the cost of whole categories in the menu.
+Heads+heads.rename+Permission to use the /heads rename command to rename heads in the menu.
+Heads+heads.id+Permission to use the /heads id command to get a the ID of the head in your main hand.
+Heads+heads.give+Permission to use the /heads give command to give heads to other players from the menu.
+Heads+heads.bypasscost+Permission to bypass having to pay for Heads
+Heads+heads.item-eco+Permission to set, get and give the economy item through the /heads itemEco <get:set:give> command.
+BowHub+bowhub.reload+Permission to reload the config!
+BowHub+bowhub.give+Permission to give you the Bow & Arrows!
+HubPvPSword+HubPvPSword.Reload+Permission to reload the config!
+HubPvPSword.HubPvPSword.Equip+Permission to give yourself the sword!
+HubPvPSword+HubPvPSword.Magic-Spell+ If you have the Magic-Spell permission enabled you need this permission to cast the spell!
