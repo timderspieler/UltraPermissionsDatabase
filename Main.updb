@@ -917,6 +917,19 @@ PlotSquared+plots.admin.command.blocked_cmds.shared+An unknown description
 PlotSquared+plots.admin.command.blocked_cmds.other+An unknown description
 PlotSquared+plots.flag.notify_leave.bypass+An unknown description
 PlotSquared+plots.flag.notify_enter.bypass+An unknown description
+PvPLevels+pvplevels.command.use+Allow to use the /pvplevels command
+PvPLevels+pvplevels.command.help+Allow to use the /pvplevels help command
+PvPLevels+pvplevels.command.reload+Allow to use the /pvplevels reload to reload the Plugin
+PvPLevels+pvplevels.command.set+Allow to set the Kills/Deaths/Level of an User
+PvPLevels+pvplevels.command.add+Allow to add the Kills/Deaths/Level on an User
+PvPLevels+pvplevels.command.remove+Allow to remove the Kills/Deaths/level of an user
+PvPLevels+pvplevels.command.stats+Allow to use the /pvpstats command
+PvPLevels+pvplevels.command.pvpstats.target+ Allow to use the /pvpstats <player> command
+PvPLevels+pvplevels.command.pvptop+Allow to use the /pvptop command
+PvPLevels+pvplevels.command.pvptop.kills+Allow to use the /pvptop kills command
+PvPLevels+pvplevels.command.pvptop.deaths+Allow to use the /pvptop deaths command
+PvPLevels+pvplevels.command.pvptop.level+Allow to use the /pvptop level command
+PvPLevels+pvplevels.command.message+Allow to use the /pvplevels message <player> <text> command
 JumpPads+jumppads.list.delete+permission to delete JumpPads from '/jp list'.
 JumpPads+jumppads.maxpower.bypass+permission to create JumpPads exceeding max power.
 JumpPads+jumppads.reload+permission to reload plugin configuration.
