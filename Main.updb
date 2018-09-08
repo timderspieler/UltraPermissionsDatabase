@@ -3687,3 +3687,17 @@ ChatControlPro+chatcontrol.messages.kick+View kick messages (given to everyone b
 ChatControlPro+chatcontrol.messages.death+View death messages (given to everyone by default).
 ChatControlPro+chatcontrol.broadcaster.view+Permission to view timed message from broadcaster. Note: It is true by default, needs to be explicitly denied.
 ChatControlPro+chatcontrol.spy.autoenable+Automatically enable command spy on login.
+BuildBattle+buildbattle.join.*+To access all arenas.+/bb join [arena],/bb randomjoin [solo/team]
+BuildBattle+buildbattle.updatenotify+Notifies about plugin update on join
+BuildBattle+buildbattle.admin.create+Creates new arena with specified name
+BuildBattle+buildbattle.admin.create+Edits existing arena
+BuildBattle+buildbattle.admin.list+Prints list of available arenas
+BuildBattle+buildbattle.admin.stopgame+Stops game you're playing
+BuildBattle+buildbattle.admin.forcestart+Force starts game you're in When theme argument is typed arena starts with predefined theme without Voting phase.
+BuildBattle+buildbattle.admin.reload+Reloads all game instances they will be stopped
+BuildBattle+buildbattle.admin.removeplot+Remove target plot from the arena
+BuildBattle+buildbattle.admin.addnpc+Spawn floor changer NPC at your location Requires Citizens
+BuildBattle+buildbattle.admin.settheme+Set new theme of arena. Works only when game started, and for 20 seconds after start
+BuildBattle+buildbattle.admin.supervotes.add+Add super votes to target player 
+BuildBattle+buildbattle.admin.supervotes.set+Set super votes of target player
+BuildBattle+buildbattle.admin.plotwand+Get plot wand for setupping arenas
