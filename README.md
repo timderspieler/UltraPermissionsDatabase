@@ -16,11 +16,11 @@ Optionally you can also add Commands like this:
 
 ### Example
 
-``Essentials:essentials.fly+Allows the player to fly``
+``Essentials+essentials.fly+Allows the player to fly``
 
 And with a command included:
 
-``Essentials:essentials.fly+Allows the player to fly+/fly``
+``Essentials+essentials.fly+Allows the player to fly+/fly``
 
 ## Deploying
 
