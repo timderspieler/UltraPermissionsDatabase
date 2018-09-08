@@ -3568,3 +3568,82 @@ BowHub+bowhub.give+Permission to give you the Bow & Arrows!
 HubPvPSword+HubPvPSword.Reload+Permission to reload the config!
 HubPvPSword.HubPvPSword.Equip+Permission to give yourself the sword!
 HubPvPSword+HubPvPSword.Magic-Spell+ If you have the Magic-Spell permission enabled you need this permission to cast the spell!
+BuildBattle+buildbattle.join.*+To access all arenas.+/bb join [arena],/bb randomjoin [solo/team]
+BuildBattle+buildbattle.updatenotify+Notifies about plugin update on join
+BuildBattle+buildbattle.admin.create+Creates new arena with specified name
+BuildBattle+buildbattle.admin.create+Edits existing arena
+BuildBattle+buildbattle.admin.list+Prints list of available arenas
+BuildBattle+buildbattle.admin.stopgame+Stops game you're playing
+BuildBattle+buildbattle.admin.forcestart+Force starts game you're in When theme argument is typed arena starts with predefined theme without Voting phase.
+BuildBattle+buildbattle.admin.reload+Reloads all game instances they will be stopped
+BuildBattle+buildbattle.admin.removeplot+Remove target plot from the arena
+BuildBattle+buildbattle.admin.addnpc+Spawn floor changer NPC at your location Requires Citizens
+BuildBattle+buildbattle.admin.settheme+Set new theme of arena. Works only when game started, and for 20 seconds after start
+BuildBattle+buildbattle.admin.supervotes.add+Add super votes to target player 
+BuildBattle+buildbattle.admin.supervotes.set+Set super votes of target player
+BuildBattle+buildbattle.admin.plotwand+Get plot wand for setupping arenas
+PetBlocks+petblocks.command.admin+Allows to use the /petblocks administration command
+PetBlocks+petblocks.command.reload+Allows to use the /petblockreload command
+PetBlocks+petblocks.command.use+Allows to use the /petblock command
+PetBlocks+petblocks.action.rename+Allows to rename your pet
+PetBlocks+petblocks.action.customskin+Allows to use any skin what a player enters in chat
+PetBlocks+petblocks.action.ride+Allows to ride your pet
+PetBlocks+petblocks.action.wear+Allows to wear your pet
+PetBlocks+petblocks.action.cannon+Allows to shoot your pet
+PetBlocks+petblocks.selection.engines.all+Allows to use all pet engines
+PetBlocks+petblocks.selection.simpleblockcostumes.all+Allows to use all simple block costumes
+PetBlocks+petblocks.selection.coloredblockcostumes.all+Allows to use all colored block costumes
+PetBlocks+petblocks.selection.playerheadcostumes.all+Allows to use all player head costumes
+PetBlocks+petblocks.selection.petcostumes.all+Allows to use all pet costumes
+PetBlocks+petblocks.selection.particles.all+Allows to use all particles
+PetBlocks+petblocks.selection.vehiclecostumes.all+Allows to use all vehicle costumes
+PetBlocks+petblocks.selection.puppetcostumes.all+Allows to use all puppet costumes
+Paintball+paintball.join+Autojoin/Join an arena+/pb join [arena]
+Paintball+paintball.join.team+Join an arena and its team
+Paintball+paintball.leave+Leave an arena
+Paintball+paintball.spectate+Spectate an arena
+Paintball+paintball.stats+View a player's statistics
+Paintball+paintball.list+List of all arenas
+Paintball+paintball.top+View leaderboards
+Paintball+paintball.wager+Wager money
+Paintball+paintball.leaderboard.use+Allows clicking a leaderboard sign to see player's stats
+Paintball+paintball.spectate.use+ Allows clicking a spectate sign
+Paintball+paintball.join.use+Allows clicking a join sign
+Paintball+paintball.autojoin.use+Allows clicking a autojoin sign
+Paintball+paintball.join.*+Allows a player to join any arena
+Paintball+paintball.join.<arenaName>+Allows a player to join a specific arena, make sure to remove paintball.join.* from them to enable this
+Paintball+paintball.arena.help+Display all Paintball Arena commands
+Paintball+paintball.arena.create+Create a new Arena
+Paintball+paintball.arena.setlocation+Set arena spawn locstions
+Paintball+paintball.arena.dellocation+Delete an arena spawn location
+Paintball+paintball.arena.setspec+Set spectate locations
+Paintball+paintball.arena.delspec+Delete spectate locations
+Paintball+paintball.arena.setflag+Set a CTF Flag location
+Paintball+paintball.arena.delflag+Delete a CTF Flag location
+Paintball+paintball.arena.min+Set the minimum amount of players to start
+Paintball+paintball.arena.max+Set the maximum amount of players
+Paintball+paintball.arena.team+Set teams via chat colors, /pb arena setteams arena &6,&7,&0,&f 
+Paintball+paintball.arena.rename+Rename an arena
+Paintball+paintball.arena.steps+List steps of an arena to start it
+Paintball+paintball.admin.help+Display Paintball Admin commands
+Paintball+paintball.admin.start+ Force start an arena
+Paintball+paintball.admin.stop+Force stop an arena
+Paintball+paintball.admin.remove+Remove an arena
+Paintball+paintball.admin.reload+Remove an arena
+Paintball+paintball.admin.enable+Enable an arena
+Paintball+paintball.admin.disable+Disable an arena
+Paintball+paintball.admin.info+Shows arena's stats
+Paintball+paintball.admin.setholo+Create a leaderboard hologram
+Paintball+paintball.admin.delholo+Remove a leaderboard hologram
+Paintball+paintball.admin.reset+ Resets a player's stats, or all their stats
+Paintball+paintball.admin.convert+Converts an arena to a different type
+Paintball+ paintball.admin.kick+ Kicks a player from an arena
+Paintball+paintball.leaderboard.create+Allows creating a leaderboard sign
+Paintball+paintball.join.create+Allows creating a join sign
+Paintball+paintball.autojoin.create+ Allows creating an autjoin sign
+Paintball+paintball.join.remove+Allows removing a join sign
+Paintball+paintball.autojoin.remove+Allows removing an autojoin sign
+Paintball+paintball.leaderboard.remove+Allows leaderboard sign
+Paintball+paintball.spectate.create+Allows creating a spectator sign
+Paintball+paintball.spectate.remove+Allows removing a spectator sign
+Paintball+paintball.update+ Player will be notified that there is a needed update on join
