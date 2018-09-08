@@ -3625,3 +3625,25 @@ Paintball+paintball.arena.max+Set the maximum amount of players
 Paintball+paintball.arena.team+Set teams via chat colors, /pb arena setteams arena &6,&7,&0,&f 
 Paintball+paintball.arena.rename+Rename an arena
 Paintball+paintball.arena.steps+List steps of an arena to start it
+Paintball+paintball.admin.help+Display Paintball Admin commands
+Paintball+paintball.admin.start+ Force start an arena
+Paintball+paintball.admin.stop+Force stop an arena
+Paintball+paintball.admin.remove+Remove an arena
+Paintball+paintball.admin.reload+Remove an arena
+Paintball+paintball.admin.enable+Enable an arena
+Paintball+paintball.admin.disable+Disable an arena
+Paintball+paintball.admin.info+Shows arena's stats
+Paintball+paintball.admin.setholo+Create a leaderboard hologram
+Paintball+paintball.admin.delholo+Remove a leaderboard hologram
+Paintball+paintball.admin.reset+ Resets a player's stats, or all their stats
+Paintball+paintball.admin.convert+Converts an arena to a different type
+Paintball+ paintball.admin.kick+ Kicks a player from an arena
+Paintball+paintball.leaderboard.create+Allows creating a leaderboard sign
+Paintball+paintball.join.create+Allows creating a join sign
+Paintball+paintball.autojoin.create+ Allows creating an autjoin sign
+Paintball+paintball.join.remove+Allows removing a join sign
+Paintball+paintball.autojoin.remove+Allows removing an autojoin sign
+Paintball+paintball.leaderboard.remove+Allows leaderboard sign
+Paintball+paintball.spectate.create+Allows creating a spectator sign
+Paintball+paintball.spectate.remove+Allows removing a spectator sign
+Paintball+paintball.update+ Player will be notified that there is a needed update on join
