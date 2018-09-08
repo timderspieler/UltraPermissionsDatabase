@@ -3568,3 +3568,122 @@ BowHub+bowhub.give+Permission to give you the Bow & Arrows!
 HubPvPSword+HubPvPSword.Reload+Permission to reload the config!
 HubPvPSword.HubPvPSword.Equip+Permission to give yourself the sword!
 HubPvPSword+HubPvPSword.Magic-Spell+ If you have the Magic-Spell permission enabled you need this permission to cast the spell!
+ChatControlPro+chatcontrol.commands.mute+Mute game chat with "/chc mute" command.
+ChatControlPro+chatcontrol.commands.mute.silent+Mute without broadcasting any message with "/chc mute -silent" command.
+ChatControlPro+chatcontrol.commands.mute.anonymous+Mute without broadcasting player who muted the chat with "/chc mute -anonymous" command.
+ChatControlPro+chatcontrol.commands.clear+Clearing game chat with "/chc clear" command
+ChatControlPro+chatcontrol.commands.clear.silent+Chat clear without broadcasting any message with "/chc clear -silent" command.
+ChatControlPro+chatcontrol.commands.clear.anonymous+Chat clear without broadcasting player who cleared the chat with "/chc clear -anonymous" command.
+ChatControlPro+chatcontrol.commands.clear.console+Clearing the console with "/chc clear -console" command.
+ChatControlPro+chatcontrol.commands.reload+Reloading the configuration with "/chc reload" command.
+ChatControlPro+chatcontrol.commands.list+Displaying help for the plugin with "/chc list" command.
+ChatControlPro+chatcontrol.commands.fake+Broadcasting fake join/kick/leave messages with "/chc fake" command.
+ChatControlPro+chatcontrol.commands.calc+Use inbuilt calculator with "/chc calc" command.
+ChatControlPro+chatcontrol.commands.inspect+Analyse methods or fields in a class with "/chc inspect" command.
+ChatControlPro+chatcontrol.commands.addrule+Ability to create new rules with command.
+ChatControlPro+chatcontrol.commands.announce+Announce messages with "/chc announce" command
+ChatControlPro+chatcontrol.commands.import+Importing rules from a file using "/chc import" command.
+ChatControlPro+chatcontrol.commands.points+View player's warning points with "/chc points" command.
+ChatControlPro+chatcontrol.commands.adminchat+Writing to admin chat using "/chc ach" command.
+ChatControlPro+chatcontrol.commands.global+Sending messages over bungee with "/chc global" command.
+ChatControlPro+chatcontrol.notify.globalchat+Permission to see global chat (given by default).
+ChatControlPro+chatcontrol.commands.color+Opens up a menu where one can change their chat color and decoration.
+ChatControlPro+chatcontrol.commands.channels+Basic permission required for "/channel" command.
+ChatControlPro+chatcontrol.commands.channels.list+List all channels with "/channel list" command.
+ChatControlPro+chatcontrol.commands.channels.list.players+List players in a channel with "/channel list" command.
+ChatControlPro+chatcontrol.commands.channels.list.players.spying+List all players in a channel, including spying ones, with the "/channel list" command.
+ChatControlPro+chatcontrol.commands.channels.leave+Leave a channel with "/channel leave" command.
+ChatControlPro+chatcontrol.commands.channels.join+Join a channel with "/channel join" command.
+ChatControlPro+chatcontrol.commands.channels.spy+See all messages in a channel with "/channel spy" command.
+ChatControlPro+chatcontrol.commands.channels.mute+Mute a channel with "/channel mute" command.
+ChatControlPro+chatcontrol.commands.channels.send+Send messages to a channel with "/channel send" command.
+ChatControlPro+chatcontrol.commands.channels.switch+Quickly change channels with "/channel switch" command.
+ChatControlPro+chatcontrol.commands.channels.set+Enforce a new channel to a player one with "/channel set" command.
+ChatControlPro+chatcontrol.commands.channels.help+List all commands regarding channels with "/channel help" command.
+ChatControlPro+chatcontrol.commands.tell+Issue a private message with "/tell" command.
+ChatControlPro+chatcontrol.commands.reply+Reply to last received private message with "/reply" command.
+ChatControlPro+chatcontrol.commands.spy+View commands executed by other players with "/spy" command.
+ChatControlPro+chatcontrol.commands.pm.console+Issue a private message with "/tell" or "/reply" command even if the player is console.
+ChatControlPro+chatcontrol.commands.pm.vanished+Issue a private message with "/tell" or "/reply" command even if the player is vanished (hidden).
+ChatControlPro+chatcontrol.commands.ignore+Do not see messages from other players in chat or in private messages with "/ignore" command.
+ChatControlPro+chatcontrol.commands.togglepm+Allow or prevent others from sending you a private message with "/togglepm" command.
+ChatControlPro+chatcontrol.commands.togglepm.others+Set for others whether or not they can receive a private message with "/togglepm <player>" command.
+ChatControlPro+chatcontrol.bypass.mute+Allow player to chat while the chat is muted.
+ChatControlPro+chatcontrol.bypass.time.commands+Bypass command message delay.
+ChatControlPro+chatcontrol.bypass.time.chat+Bypass chat message delay.
+ChatControlPro+chatcontrol.bypass.dupe.commands+Allow a player to send duplicate/similar commands.
+ChatControlPro+chatcontrol.bypass.dupe.chat+Allow a player to send duplicate/similar messages.
+ChatControlPro+chatcontrol.bypass.limit.chat+Allow to bypass adaptive anti-spam (limiting amount of messages in a time-frame).
+ChatControlPro+chatcontrol.bypass.limit.commands+Allow to bypass adaptive anti-spam (limiting amount of commands in a time-frame).
+ChatControlPro+chatcontrol.bypass.move+Allow player to chat even when they did not moved since joining the server.
+ChatControlPro+chatcontrol.bypass.caps+Bypass check for CAPS.
+ChatControlPro+chatcontrol.bypass.rejoin+Bypass rejoin check.
+ChatControlPro+chatcontrol.bypass.tabcomplete+Allow player to tab complete.Notice: If you are using Spigot it is highly recommended to disable this feature and use the inbuilt one in spigot.yml
+ChatControlPro+chatcontrol.bypass.clear+Player's chat don't clears, they receive just one message instead.
+ChatControlPro+chatcontrol.bypass.replace+Player's messages will not be replaced from replace lists in chat.yml.
+ChatControlPro+chatcontrol.bypass.capitalize+Player's messages will not be capitalized.
+ChatControlPro+chatcontrol.bypass.punctuate+No dot will not be inserted after player's messages.Notice: Permission changed in v5.0.0 from insertdot to punctuate.
+ChatControlPro+chatcontrol.bypass.signduplication+Allow player to make multiple signs with same text.
+ChatControlPro+chatcontrol.bypass.rules.global+Allow player to bypass all rules.
+ChatControlPro+chatcontrol.bypass.rules.books+Allow player to bypass rules from rules/books.txt file.
+ChatControlPro+chatcontrol.bypass.rules.commands+Allow player to bypass rules from rules/commands.txt file.
+ChatControlPro+chatcontrol.bypass.rules.chat+Allow player to bypass rules from rules/chat.txt file.
+ChatControlPro+chatcontrol.bypass.rules.items+Allow player to bypass anvil rules from rules/items.txt file.
+ChatControlPro+chatcontrol.bypass.rules.packets+Allow player to bypass rules from rules/packets.txt file.
+ChatControlPro+chatcontrol.bypass.rules.signs+Allow player to bypass rules from rules/sign.txt file. NOTICE the name is "signs" while the file is "sign".
+ChatControlPro+chatcontrol.bypass.spamkick+Allow player to bypass vanilla's "disconnect.spam" kick when sending messages too quickly.
+ChatControlPro+chatcontrol.bypass.nicknames+Player will not be checked against disallowed nicknames defined in the antibot section in settings.yml.
+ChatControlPro+chatcontrol.bypass.warnpoints+Players will be ignored from receiving warning points and punishments from them.
+ChatControlPro+chatcontrol.bypass.spy+Players with this permission will not have their commands logged and exposed in the /spy command.
+ChatControlPro+chatcontrol.bypass.channellimit+Allow the player to be in unlimited amount of channels.
+ChatControlPro+chatcontrol.bypass.togglepm+Enforce sending a private message to the player that has PM's disabled.
+ChatControlPro+chatcontrol.bypass.ignore+Enforce sending a message to the player that is ignoring the sender.
+ChatControlPro+chatcontrol.bypass.spy.books+The player will not trigger spy alert when signing a book.
+ChatControlPro+chatcontrol.bypass.spy.signs+The player will not trigger spy alert when placing signs.
+ChatControlPro+chatcontrol.notify.signduplication+Receive a warning when a player makes multiple signs with the same text.
+ChatControlPro+chatcontrol.notify.update+Receive a warning when a new version of plugin is available.
+ChatControlPro+chatcontrol.notify.whenmentioned+Receive a sound warning when somebody mentions you in the chat.
+ChatControlPro+chatcontrol.notify.announcements+Receive announcements issued by "/chc announce". Notice: True for everyone by default.
+ChatControlPro+chatcontrol.notify.globalchat+Receive messages sent by "/chc global"
+ChatControlPro+chatcontrol.notify.outofrange+Get notified when nobody sees your message in ranged chat because it's too far away.
+ChatControlPro+chatcontrol.chat.format.color.*+Permission to use all colors in chat.
+ChatControlPro+chatcontrol.chat.format.color.aqua+Permission to use aqua.
+ChatControlPro+chatcontrol.chat.format.color.black+Permission to use black.
+ChatControlPro+chatcontrol.chat.format.color.blue+Permission to use blue.
+ChatControlPro+chatcontrol.chat.format.color.dark_aqua+Permission to use dark_aqua.
+ChatControlPro+chatcontrol.chat.format.color.dark_blue+Permission to use dark_blue.
+ChatControlPro+chatcontrol.chat.format.color.dark_gray+Permission to use dark_gray.
+ChatControlPro+chatcontrol.chat.format.color.dark_green+Permission to use dark_green.
+ChatControlPro+chatcontrol.chat.format.color.dark_purple+Permission to use dark_purple.
+ChatControlPro+chatcontrol.chat.format.color.dark_red+Permission to use dark_red.
+ChatControlPro+chatcontrol.chat.format.color.gold+Permission to use gold.
+ChatControlPro+chatcontrol.chat.format.color.gray+Permission to use gray.
+ChatControlPro+chatcontrol.chat.format.color.green+Permission to use green.
+ChatControlPro+chatcontrol.chat.format.color.light_purple+Permission to use light_purple.
+ChatControlPro+chatcontrol.chat.format.color.red+Permission to use red.
+ChatControlPro+chatcontrol.chat.format.color.white+Permission to use white.
+ChatControlPro+chatcontrol.chat.format.color.yellow+Permission to use yellow.
+ChatControlPro+chatcontrol.chat.format.magic+Permission to use '&k' magic character.
+ChatControlPro+chatcontrol.chat.format.bold+Permission to use '&l' character to make messages bold.
+ChatControlPro+chatcontrol.chat.format.strikethrough+Permission to use '&m' character to strikethrough the messages.
+ChatControlPro+chatcontrol.chat.format.underline+Permission to use '&n' character to underline the messages.
+ChatControlPro+chatcontrol.chat.format.italic+Permission to use '&o' character make the messages italics.
+ChatControlPro+chatcontrol.chat.format.reset+Permission to use '&r' character to reset the chat color.
+ChatControlPro+chatcontrol.chat.global+Permission to speak in global chat when chat range is enabled and message starts with '!'.
+ChatControlPro+chatcontrol.chat.spyranged and chatcontrol.chat.spy+Permission to receive everyone's messages when ranged mode is enabled.
+ChatControlPro+chatcontrol.chat.overrideranged+Permission speak for all players in the entire world when ranged mode is enabled.
+ChatControlPro+chatcontrol.channel.{channel}+Basic permission to be able to access the channel at all.
+ChatControlPro+chatcontrol.channel.{channel}.join.{mode}+Permission to join a channel with "/ch join" in a specific mode (write, read or spy, or * for all).
+ChatControlPro+chatcontrol.channel.{channel}.leave+Leave a channel with "/ch leave".
+ChatControlPro+chatcontrol.channel.{channel}.send+Send a message to a channel with "/ch send".
+ChatControlPro+chatcontrol.channel.{channel}.mute+Mute a specific channel with "/ch mute".
+ChatControlPro+chatcontrol.channel.{channel}.spy+See messages in a channel with "/ch spy".
+ChatControlPro+chatcontrol.channel.{channel}.bypass.world+Speak to all players in all worlds, bypass per-world chat.
+ChatControlPro+chatcontrol.channel.{channel}.bypass.range+Speak to all players in the world, bypass ranged chat.
+ChatControlPro+chatcontrol.channel.autojoin.{channel}.{mode}+Info: You must edit this manually for it to work. Put the player into the specific channel, in a specific mode (write, read or spy).
+ChatControlPro+chatcontrol.messages.join+View join messages (given to everyone by default).
+ChatControlPro+chatcontrol.messages.quit+View quit messages (given to everyone by default).
+ChatControlPro+chatcontrol.messages.kick+View kick messages (given to everyone by default).
+ChatControlPro+chatcontrol.messages.death+View death messages (given to everyone by default).
+ChatControlPro+chatcontrol.broadcaster.view+Permission to view timed message from broadcaster. Note: It is true by default, needs to be explicitly denied.
+ChatControlPro+chatcontrol.spy.autoenable+Automatically enable command spy on login.
