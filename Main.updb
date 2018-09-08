@@ -3598,3 +3598,30 @@ PetBlocks+petblocks.selection.petcostumes.all+Allows to use all pet costumes
 PetBlocks+petblocks.selection.particles.all+Allows to use all particles
 PetBlocks+petblocks.selection.vehiclecostumes.all+Allows to use all vehicle costumes
 PetBlocks+petblocks.selection.puppetcostumes.all+Allows to use all puppet costumes
+Paintball+paintball.join+Autojoin/Join an arena+/pb join [arena]
+Paintball+paintball.join.team+Join an arena and its team
+Paintball+paintball.leave+Leave an arena
+Paintball+paintball.spectate+Spectate an arena
+Paintball+paintball.stats+View a player's statistics
+Paintball+paintball.list+List of all arenas
+Paintball+paintball.top+View leaderboards
+Paintball+paintball.wager+Wager money
+Paintball+paintball.leaderboard.use+Allows clicking a leaderboard sign to see player's stats
+Paintball+paintball.spectate.use+ Allows clicking a spectate sign
+Paintball+paintball.join.use+Allows clicking a join sign
+Paintball+paintball.autojoin.use+Allows clicking a autojoin sign
+Paintball+paintball.join.*+Allows a player to join any arena
+Paintball+paintball.join.<arenaName>+Allows a player to join a specific arena, make sure to remove paintball.join.* from them to enable this
+Paintball+paintball.arena.help+Display all Paintball Arena commands
+Paintball+paintball.arena.create+Create a new Arena
+Paintball+paintball.arena.setlocation+Set arena spawn locstions
+Paintball+paintball.arena.dellocation+Delete an arena spawn location
+Paintball+paintball.arena.setspec+Set spectate locations
+Paintball+paintball.arena.delspec+Delete spectate locations
+Paintball+paintball.arena.setflag+Set a CTF Flag location
+Paintball+paintball.arena.delflag+Delete a CTF Flag location
+Paintball+paintball.arena.min+Set the minimum amount of players to start
+Paintball+paintball.arena.max+Set the maximum amount of players
+Paintball+paintball.arena.team+Set teams via chat colors, /pb arena setteams arena &6,&7,&0,&f 
+Paintball+paintball.arena.rename+Rename an arena
+Paintball+paintball.arena.steps+List steps of an arena to start it
