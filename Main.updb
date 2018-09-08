@@ -3582,3 +3582,19 @@ BuildBattle+buildbattle.admin.settheme+Set new theme of arena. Works only when g
 BuildBattle+buildbattle.admin.supervotes.add+Add super votes to target player 
 BuildBattle+buildbattle.admin.supervotes.set+Set super votes of target player
 BuildBattle+buildbattle.admin.plotwand+Get plot wand for setupping arenas
+PetBlocks+petblocks.command.admin+Allows to use the /petblocks administration command
+PetBlocks+petblocks.command.reload+Allows to use the /petblockreload command
+PetBlocks+petblocks.command.use+Allows to use the /petblock command
+PetBlocks+petblocks.action.rename+Allows to rename your pet
+PetBlocks+petblocks.action.customskin+Allows to use any skin what a player enters in chat
+PetBlocks+petblocks.action.ride+Allows to ride your pet
+PetBlocks+petblocks.action.wear+Allows to wear your pet
+PetBlocks+petblocks.action.cannon+Allows to shoot your pet
+PetBlocks+petblocks.selection.engines.all+Allows to use all pet engines
+PetBlocks+petblocks.selection.simpleblockcostumes.all+Allows to use all simple block costumes
+PetBlocks+petblocks.selection.coloredblockcostumes.all+Allows to use all colored block costumes
+PetBlocks+petblocks.selection.playerheadcostumes.all+Allows to use all player head costumes
+PetBlocks+petblocks.selection.petcostumes.all+Allows to use all pet costumes
+PetBlocks+petblocks.selection.particles.all+Allows to use all particles
+PetBlocks+petblocks.selection.vehiclecostumes.all+Allows to use all vehicle costumes
+PetBlocks+petblocks.selection.puppetcostumes.all+Allows to use all puppet costumes
