@@ -3668,14 +3668,14 @@ StaffCore+staffcore.warn+Allows the player to warn other players.
 StaffCore+staffcore.removewarns+Allows the player to remove warns from a player.
 StaffCore+staffcore.kick+Gives the player the ability to kick others.
 StaffCore+staffcore.tempmute+Allows the players to tempmute others.
-StaffCore+StaffCorestaffcore.mute+Allows the player to mute others.
+StaffCore+staffcore.mute+Allows the player to mute others.
 StaffCore+staffcore.unmute+Allows the player to unmute players.
 StaffCore+staffcore.removemutes+Allows the player to remove mutes from a player.
 StaffCore+staffcore.tempban+Allows the player to tempban players.
 StaffCore+staffcore.ban+Gives the player the ability to ban players.
 StaffCore+staffcore.unban+Allows the player to unban players.
 StaffCore+staffcore.removebans+Allows the player to remove bans from a player.
-StaffCorestaffcore.banip+Allows a player to ban an ip.
+StaffCore+staffcore.banip+Allows a player to ban an ip.
 StaffCore+staffcore.unbanip+Allows a player to unban an ip.
 StaffCore+staffcore.alts+Allows staff to see the alts of a player.
 StaffCore+staffcore.bmwinfo+Gets the warns/mutes/bans of a player.
