@@ -3693,3 +3693,5 @@ StaffCore+staffcore.chatmonitor+Allows the player to toggle the chat filter and 
 StaffCore+staffcore.report+Gives the player the ability to see the reports that players send.
 StaffCore+staffcore.seeip+Allows staff to see a players IP in /bmwinfo.
 StaffCore+staffcore.resetstats+Allows higher ups to reset all of the player and staff stats.​
+ReWorld+reworld.admin+Allows a player to use the GUI of ReWorld.+/reworld
+ReWorld+reworld.bypass.build+Allows a player to bypass the build flag in ReWorld.
