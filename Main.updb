@@ -3695,3 +3695,12 @@ StaffCore+staffcore.seeip+Allows staff to see a players IP in /bmwinfo.
 StaffCore+staffcore.resetstats+Allows higher ups to reset all of the player and staff stats.​
 ReWorld+reworld.admin+Allows a player to use the GUI of ReWorld.+/reworld
 ReWorld+reworld.bypass.build+Allows a player to bypass the build flag in ReWorld.
+ItemFrameShops+ifs.admin.remove+Non-command - Removes the item from store
+ItemFrameShops+ifs.admin.create+Non-command - Creates the store
+ItemFrameShops+ifs.user.sell+Non-command - Allows user to sell item from the store.
+ItemFrameShops+ifs.user.buy+Non-command - Allows user to buy item from the store.
+ItemFrameShops+ifs.user.discount32+Non-command - Discount from buying 32 item of discount from the store for user.
+ItemFrameShops+ifs.user.discount64+Non-command - Discount from buying 64 item of discount from the store for user.
+ItemFrameShops+ifs.user.useSellAll+Non-command - Sell one stack for a item.
+ItemFrameShops+ifs.user.useBuyAll+Non-command - Buy All for one item. 
+ItemFrameShops+ifs.command.*+All command permissions 
