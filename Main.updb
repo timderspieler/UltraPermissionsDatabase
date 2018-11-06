@@ -3695,3 +3695,40 @@ StaffCore+staffcore.seeip+Allows staff to see a players IP in /bmwinfo.
 StaffCore+staffcore.resetstats+Allows higher ups to reset all of the player and staff stats.​
 ReWorld+reworld.admin+Allows a player to use the GUI of ReWorld.+/reworld
 ReWorld+reworld.bypass.build+Allows a player to bypass the build flag in ReWorld.
+ItemFrameShops+ifs.admin.remove+Non-command: Removes the item from store
+ItemFrameShops+ifs.admin.create+Non-command: Creates the store
+ItemFrameShops+ifs.user.sell+Non-command: Allows user to sell item from the store.
+ItemFrameShops+ifs.user.buy+Non-command: Allows user to buy item from the store.
+ItemFrameShops+ifs.user.discount32+Non command: Discount from buying 32 item of discount from the store for user.
+ItemFrameShops+ifs.user.discount64+Non command: Discount from buying 64 item of discount from the store for user.
+ItemFrameShops+ifs.user.useSellAll+Non command: Sell one stack for a item.
+ItemFrameShops+ifs.user.useBuyAll+Non command: Buy All for one item. 
+ItemFrameShops+ifs.command.*+All command permissions 
+ItemFrameShops+ifs.command.buyprice+Sets buy price for shop (click on item frame to apply, toggles)
+ItemFrameShops+ifs.command.help+Shows information about commands
+ItemFrameShops+ifs.command.list+Lists all shops.
+ItemFrameShops+ifs.command.materials+Saves a file containing all possible materials (blocks and items) in the game. Useful to customize default prices.
+ItemFrameShops+ifs.command.mode+Set if shop is disabled or allowed to sell and/or buy items
+ItemFrameShops+ifs.command.price+Automatically sets sell price to 80% of buy for shop (click on item frame to apply, toggles
+ItemFrameShops+ifs.command.recalc+Recalculates buy/sell prices for shop (click on item frame to apply, toggles)
+ItemFrameShops+ifs.command.reload+Reloads config files and data from disk
+ItemFrameShops+ifs.command.removeall+Removes all shops from the game.
+ItemFrameShops+ifs.command.remove+Removes shop (click on item frame to apply, toggles)
+ItemFrameShops+ifs.command.save+Saves config files and data to disk
+ItemFrameShops+ifs.command.sellprice+Sets sell price for shop (click on item frame to apply, toggles)
+ItemFrameShops+ifs.command.info+Shows statistics and information about a shop. (toggle on/off)
+ItemFrameShops+ifs.command.worth+Shows the price and recipes ifs will use for the item in your hand.
+ItemFrameShops+ifs.command.debug+Contains a surprise every update. (This is just a command I use to test certain things, I do not recommend that you use it)
+ItemFrameShops+ifs.command.create+Enables creating shops (click on item frame to create shop, toggles)
+ItemFrameShops+ItemFrameShops+ifs.command.shoplayout+Allows you to change how a shop looks. You can reposition all "menu items" in a fake shop-like inventory. It is a work in progress and might be buggy!
+ItemFrameShops+ifs.command.recalcall+Recalculates and loads all shop prices. This will remove any custom set pricing!
+ItemFrameShops+ifs.command.modifyallprices+Modifies all shop prices based on a multiplier. (does not calculate prices again!)
+ItemFrameShops+ifs.command.iteminfo+Used for debugging prices stuff. Shows item info.
+ItemFrameShops+ifs.command.convertworth+Allows you to convert all prices from Essentials worth file to prices.properties. This might help to migrate prices from essentials.
+ItemFrameShops+ifs.command.groupwhitelist+Adds or removes a group from the group whitelist. (list of groups that are allowed to use the shop) - This feature and command is in beta!
+ItemFrameShops+ifs.command.setdefaultprice+Allows changing the default price (in prices.properties) for the item in your hand. (does not work for custom items!)
+ItemFrameShops+ifs.command.createshopinselection+Turns every itemframe in your WorldEdit selection into a shop.
+ItemFrameShops+ifs.command.removeshopinselection+Removes every shop in your WorldEdit selection (but keeps items and frames).
+ItemFrameShops+ ifs.command.recalcshopsinselection+Recalculates prices for every shop in your WorldEdit selection.
+ItemFrameShops+ifs.command.sellall+Sells your entire inventory at IFS calculated prices.
+ItemFrameShops+ifs.command.sellhand+Sells the item in your hand using a price calculated by IFS.
