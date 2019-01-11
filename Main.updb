@@ -4,6 +4,17 @@
 #
 # Format: (Plugin)+(Permission)+(Description)+(Commands (seperated with ,))
 #
+TCChallenge+tcchallenge.admin+Grants ability to right-click any tree heart log or pylon and access the GUIs AND makes the player a Member of every tree on the server
+TCChallenge+tcchallenge.admin.gui+Grants ability to use /tcchallenge command
+TCChallenge+tcchallenge.benchmark+Displays the Root Task benchmark in the actionbar
+TCChallenge+tcchallenge.tpheart+Grants ability to use the /tpheart <playername> command
+TCChallenge+tcchallenge.use.withereffect+Enables Wither Effect when a player leaves their roots
+TCChallenge+tcchallenge.pylon.barrier+Grants ability to set a pylon as an invisible barrier block
+ParrotAnnouncer+announcer.admin+Allows /announcer command usage
+MusicalBiomesLite+musicalbiomes.admin+Ability to use the /musicalbiomes command
+MusicalBiomes+musicalbiomes.admin+Ability to use the /musicalbiomes command
+PigmanAttention+pigmanattention.bypass+Let's players bypass pigman aggro
+PigmanAttention+pigmanattention.admin+Gives access to Admin GUI
 citizens+citizens.admin+This allows players to edit 'server' owned NPCs.
 citizens+citizens.npc.+An unknown description
 CratesPlus+cratesplus.admin+Access to all /crate commands. Defaults to OP.+/crate settings,/crate reload,/crate create,/crate rename,/crate delete,/crate crate,/crate key
