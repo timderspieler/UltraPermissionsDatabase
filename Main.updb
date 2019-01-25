@@ -16,7 +16,6 @@ DeluxeCombat+deluxecombat.bypasscommand+Lets you still use blocked commands whil
 DeluxeCombat+deluxecombat.bypassquit+Lets you quit while in combat without any bad punishments.
 DeluxeCombat+deluxecombat.bypassworld+Lets you still combat tag someone else in a disabled world.
 DeluxeCombat+deluxecombat.bypasshitdelay+Lets you exceed the limit of the hit delay to maximum.
-DeluxeCombat+deluxecombat.[customnode]+Custom nodes to add your own rewards or item executors.
 DeluxeCombat+deluxecombat.secretmeme+Memes are included, who knows what this permission will do...
 Confiscate+confiscate.commands.list+Access the /c list command to browse all commands of this plugin.
 Confiscate+confiscate.commands.reload+Access the /c reload command to reload the configuration.
@@ -31,14 +30,8 @@ Confiscate+confiscate.commands.inv.write+Permission to manipulate with the conte
 Confiscate+confiscate.commands.log+Access the /c log command.
 Confiscate+confiscate.commands.log.browse+Browse players' log.
 Confiscate+confiscate.commands.stats+View stored log statistics.
-Confiscate+confiscate.bypass.container.{inventoryType}+Permission to bypass scanning when opening a specified container.
 Confiscate+confiscate.bypass.inventory+Permission to bypass inventory scan, e.g. when they log in or change world.
 Confiscate+confiscate.bypass.stacks+Permission to allow items stacked unnaturally (e.g. 64x minecarts).
-Confiscate+confiscate.bypass.potion.{potion_type}+Permission to allow holding of illegal potions (infinite, killer potions etc) of specified type.
-Confiscate+confiscate.bypass.item.{material}+Permission to allow holding of banned items of specific material.
-Confiscate+confiscate.bypass.item_creative.{material}+Permission to allow holding of banned items in survival of specific material.
-Confiscate+confiscate.bypass.limit.{material}+Permission to bypass item amount restriction for specific item.
-Confiscate+confiscate.bypass.limit_newcomers.{material}+Permission to bypass item amount restriction for specific item for newcomers.
 Confiscate+confiscate.bypass.worldedit+Permission to bypass item limit for WorldEdit operations. Since some operations work with thousands of items, we do not allow only certain items to be bypassed because of the performance impact could freeze the server.
 Confiscate+confiscate.notify.confiscate+Permission to be notified when something is confiscated.
 Confiscate+confiscate.notify.commandspy+Permission to receive alerts when a command is executed.
@@ -46,7 +39,6 @@ Confiscate+confiscate.notify.updates+Permission to receive alerts on join when a
 Confiscate+confiscate.room.open+Permission to open chests in the chest room.
 Confiscate+confiscate.room.signs+Permission to view player logs by clicking on their sign in the chest room.
 Confiscate+confiscate.room.tool+Permission to use the room foundation tool.
-Confiscate+confiscate.exempt.log.{log_type}+Player will be ignored from logging. Replace {log_type} with the message type (you can find all if you type /c log view <yourname> blabla)
 Confiscate+confiscate.exempt.commandspy+Player will be ignored from command spy.
 CratesPlus+cratesplus.admin+Access to all /crate commands. Defaults to OP.+/crate settings,/crate reload,/crate create,/crate rename,/crate delete,/crate crate,/crate key
 CratesPlus+cratesplus.updates+Any player with this permission will be notified of updates. Defaults to OP.
