@@ -4,6 +4,212 @@
 #
 # Format: (Plugin)+(Permission)+(Description)+(Commands (seperated with ,))
 #
+Lands+lands.command.menu+Open the Lands Menu+/lands menu
+Lands+lands.command.menu+Open the Lands Menu+/lands menu
+Lands+lands.chunks.1+Defines max chunk claim for player
+Lands+lands.chunks.2+Defines max chunk claim for player
+Lands+lands.chunks.3+Defines max chunk claim for player
+Lands+lands.chunks.4+Defines max chunk claim for player
+Lands+lands.chunks.5+Defines max chunk claim for player
+Lands+lands.chunks.6+Defines max chunk claim for player
+Lands+lands.chunks.7+Defines max chunk claim for player
+Lands+lands.chunks.8+Defines max chunk claim for player
+Lands+lands.chunks.9+Defines max chunk claim for player
+Lands+lands.chunks.10+Defines max chunk claim for player
+Lands+lands.chunks.15+Defines max chunk claim for player
+Lands+lands.chunks.20+Defines max chunk claim for player
+Lands+lands.chunks.25+Defines max chunk claim for player
+Lands+lands.chunks.30+Defines max chunk claim for player
+Lands+lands.chunks.35+Defines max chunk claim for player
+Lands+lands.chunks.40+Defines max chunk claim for player
+Lands+lands.chunks.45+Defines max chunk claim for player
+Lands+lands.chunks.50+Defines max chunk claim for player
+Lands+lands.chunks.55+Defines max chunk claim for player
+Lands+lands.chunks.60+Defines max chunk claim for player
+Lands+lands.chunks.65+Defines max chunk claim for player
+Lands+lands.chunks.70+Defines max chunk claim for player
+Lands+lands.chunks.75+Defines max chunk claim for player
+Lands+lands.chunks.80+Defines max chunk claim for player
+Lands+lands.chunks.85+Defines max chunk claim for player
+Lands+lands.chunks.90+Defines max chunk claim for player
+Lands+lands.chunks.95+Defines max chunk claim for player
+Lands+lands.chunks.100+Defines max chunk claim for player
+Lands+lands.chunks.150+Defines max chunk claim for player
+Lands+lands.chunks.200+Defines max chunk claim for player
+Lands+lands.chunks.250+Defines max chunk claim for player
+Lands+lands.chunks.500+Defines max chunk claim for player
+Lands+lands.chunks.750+Defines max chunk claim for player
+Lands+lands.chunks.1000+Defines max chunk claim for player
+Lands+lands.free.chunks.1+Defines free claims before player needs to pay
+Lands+lands.free.chunks.2+Defines free claims before player needs to pay
+Lands+lands.free.chunks.3+Defines free claims before player needs to pay
+Lands+lands.free.chunks.4+Defines free claims before player needs to pay
+Lands+lands.free.chunks.5+Defines free claims before player needs to pay
+Lands+lands.free.chunks.6+Defines free claims before player needs to pay
+Lands+lands.free.chunks.7+Defines free claims before player needs to pay
+Lands+lands.free.chunks.8+Defines free claims before player needs to pay
+Lands+lands.free.chunks.9+Defines free claims before player needs to pay
+Lands+lands.free.chunks.10+Defines free claims before player needs to pay
+Lands+lands.free.chunks.15+Defines free claims before player needs to pay
+Lands+lands.free.chunks.20+Defines free claims before player needs to pay
+Lands+lands.free.chunks.25+Defines free claims before player needs to pay
+Lands+lands.free.chunks.30+Defines free claims before player needs to pay
+Lands+lands.free.chunks.35+Defines free claims before player needs to pay
+Lands+lands.free.chunks.40+Defines free claims before player needs to pay
+Lands+lands.free.chunks.45+Defines free claims before player needs to pay
+Lands+lands.free.chunks.50+Defines free claims before player needs to pay
+Lands+lands.free.chunks.55+Defines free claims before player needs to pay
+Lands+lands.free.chunks.60+Defines free claims before player needs to pay
+Lands+lands.free.chunks.65+Defines free claims before player needs to pay
+Lands+lands.free.chunks.70+Defines free claims before player needs to pay
+Lands+lands.free.chunks.75+Defines free claims before player needs to pay
+Lands+lands.free.chunks.80+Defines free claims before player needs to pay
+Lands+lands.free.chunks.85+Defines free claims before player needs to pay
+Lands+lands.free.chunks.90+Defines free claims before player needs to pay
+Lands+lands.free.chunks.95+Defines free claims before player needs to pay
+Lands+lands.free.chunks.100+Defines free claims before player needs to pay
+Lands+lands.free.chunks.150+Defines free claims before player needs to pay
+Lands+lands.free.chunks.200+Defines free claims before player needs to pay
+Lands+lands.free.chunks.250+Defines free claims before player needs to pay
+Lands+lands.free.chunks.500+Defines free claims before player needs to pay
+Lands+lands.free.chunks.750+Defines free claims before player needs to pay
+Lands+lands.free.chunks.1000+Defines free claims before player needs to pay
+Lands+lands.members.1+Defines max chunk members for player
+Lands+lands.members.2+Defines max chunk members for player
+Lands+lands.members.3+Defines max chunk members for player
+Lands+lands.members.4+Defines max chunk members for player
+Lands+lands.members.5+Defines max chunk members for player
+Lands+lands.members.6+Defines max chunk members for player
+Lands+lands.members.7+Defines max chunk members for player
+Lands+lands.members.8+Defines max chunk members for player
+Lands+lands.members.9+Defines max chunk members for player
+Lands+lands.members.10+Defines max chunk members for player
+Lands+lands.members.15+Defines max chunk members for player
+Lands+lands.members.20+Defines max chunk members for player
+Lands+lands.members.25+Defines max chunk members for player
+Lands+lands.members.30+Defines max chunk members for player
+Lands+lands.members.35+Defines max chunk members for player
+Lands+lands.members.40+Defines max chunk members for player
+Lands+lands.members.45+Defines max chunk members for player
+Lands+lands.members.50+Defines max chunk members for player
+Lands+lands.members.55+Defines max chunk members for player
+Lands+lands.members.60+Defines max chunk members for player
+Lands+lands.members.65+Defines max chunk members for player
+Lands+lands.members.70+Defines max chunk members for player
+Lands+lands.members.75+Defines max chunk members for player
+Lands+lands.members.80+Defines max chunk members for player
+Lands+lands.members.85+Defines max chunk members for player
+Lands+lands.members.90+Defines max chunk members for player
+Lands+lands.members.95+Defines max chunk members for player
+Lands+lands.members.100+Defines max chunk members for player
+Lands+lands.members.150+Defines max chunk members for player
+Lands+lands.members.200+Defines max chunk members for player
+Lands+lands.members.250+Defines max chunk members for player
+Lands+lands.members.500+Defines max chunk members for player
+Lands+lands.members.750+Defines max chunk members for player
+Lands+lands.members.1000+Defines max chunk members for player
+Lands+lands.lands.1+Defines max lands a player can be in
+Lands+lands.lands.2+Defines max lands a player can be in
+Lands+lands.lands.3+Defines max lands a player can be in
+Lands+lands.lands.4+Defines max lands a player can be in
+Lands+lands.lands.5+Defines max lands a player can be in
+Lands+lands.lands.6+Defines max lands a player can be in
+Lands+lands.lands.7+Defines max lands a player can be in
+Lands+lands.lands.8+Defines max lands a player can be in
+Lands+lands.lands.9+Defines max lands a player can be in
+Lands+lands.lands.10+Defines max lands a player can be in
+Lands+lands.lands.15+Defines max lands a player can be in
+Lands+lands.lands.20+Defines max lands a player can be in
+Lands+lands.lands.25+Defines max lands a player can be in
+Lands+lands.lands.30+Defines max lands a player can be in
+Lands+lands.lands.35+Defines max lands a player can be in
+Lands+lands.lands.40+Defines max lands a player can be in
+Lands+lands.lands.45+Defines max lands a player can be in
+Lands+lands.lands.50+Defines max lands a player can be in
+Lands+lands.lands.55+Defines max lands a player can be in
+Lands+lands.lands.60+Defines max lands a player can be in
+Lands+lands.lands.65+Defines max lands a player can be in
+Lands+lands.lands.70+Defines max lands a player can be in
+Lands+lands.lands.75+Defines max lands a player can be in
+Lands+lands.lands.80+Defines max lands a player can be in
+Lands+lands.lands.85+Defines max lands a player can be in
+Lands+lands.lands.90+Defines max lands a player can be in
+Lands+lands.lands.95+Defines max lands a player can be in
+Lands+lands.lands.100+Defines max lands a player can be in
+Lands+lands.lands.150+Defines max lands a player can be in
+Lands+lands.lands.200+Defines max lands a player can be in
+Lands+lands.lands.250+Defines max lands a player can be in
+Lands+lands.lands.500+Defines max lands a player can be in
+Lands+lands.lands.750+Defines max lands a player can be in
+Lands+lands.lands.1000+Defines max lands a player can be in
+Lands+lands.ownLands.1+Defines max own lands a player can have
+Lands+lands.ownLands.2+Defines max own lands a player can have
+Lands+lands.ownLands.3+Defines max own lands a player can have
+Lands+lands.ownLands.4+Defines max own lands a player can have
+Lands+lands.ownLands.5+Defines max own lands a player can have
+Lands+lands.ownLands.6+Defines max own lands a player can have
+Lands+lands.ownLands.7+Defines max own lands a player can have
+Lands+lands.ownLands.8+Defines max own lands a player can have
+Lands+lands.ownLands.9+Defines max own lands a player can have
+Lands+lands.ownLands.10+Defines max own lands a player can have
+Lands+lands.ownLands.15+Defines max own lands a player can have
+Lands+lands.ownLands.20+Defines max own lands a player can have
+Lands+lands.ownLands.25+Defines max own lands a player can have
+Lands+lands.ownLands.30+Defines max own lands a player can have
+Lands+lands.ownLands.35+Defines max own lands a player can have
+Lands+lands.ownLands.40+Defines max own lands a player can have
+Lands+lands.ownLands.45+Defines max own lands a player can have
+Lands+lands.ownLands.50+Defines max own lands a player can have
+Lands+lands.ownLands.55+Defines max own lands a player can have
+Lands+lands.ownLands.60+Defines max own lands a player can have
+Lands+lands.ownLands.65+Defines max own lands a player can have
+Lands+lands.ownLands.70+Defines max own lands a player can have
+Lands+lands.ownLands.75+Defines max own lands a player can have
+Lands+lands.ownLands.80+Defines max own lands a player can have
+Lands+lands.ownLands.85+Defines max own lands a player can have
+Lands+lands.ownLands.90+Defines max own lands a player can have
+Lands+lands.ownLands.95+Defines max own lands a player can have
+Lands+lands.ownLands.100+Defines max own lands a player can have
+Lands+lands.ownLands.150+Defines max own lands a player can have
+Lands+lands.ownLands.200+Defines max own lands a player can have
+Lands+lands.ownLands.250+Defines max own lands a player can have
+Lands+lands.ownLands.500+Defines max own lands a player can have
+Lands+lands.ownLands.750+Defines max own lands a player can have
+Lands+lands.ownLands.1000+Defines max own lands a player can have
+Lands+lands.selection.1+Defines max chunk selection
+Lands+lands.selection.2+Defines max chunk selection
+Lands+lands.selection.3+Defines max chunk selection
+Lands+lands.selection.4+Defines max chunk selection
+Lands+lands.selection.5+Defines max chunk selection
+Lands+lands.selection.6+Defines max chunk selection
+Lands+lands.selection.7+Defines max chunk selection
+Lands+lands.selection.8+Defines max chunk selection
+Lands+lands.selection.9+Defines max chunk selection
+Lands+lands.selection.10+Defines max chunk selection
+Lands+lands.selection.15+Defines max chunk selection
+Lands+lands.selection.20+Defines max chunk selection
+Lands+lands.selection.25+Defines max chunk selection
+Lands+lands.selection.30+Defines max chunk selection
+Lands+lands.selection.35+Defines max chunk selection
+Lands+lands.selection.40+Defines max chunk selection
+Lands+lands.selection.45+Defines max chunk selection
+Lands+lands.selection.50+Defines max chunk selection
+Lands+lands.selection.55+Defines max chunk selection
+Lands+lands.selection.60+Defines max chunk selection
+Lands+lands.selection.65+Defines max chunk selection
+Lands+lands.selection.70+Defines max chunk selection
+Lands+lands.selection.75+Defines max chunk selection
+Lands+lands.selection.80+Defines max chunk selection
+Lands+lands.selection.85+Defines max chunk selection
+Lands+lands.selection.90+Defines max chunk selection
+Lands+lands.selection.95+Defines max chunk selection
+Lands+lands.selection.100+Defines max chunk selection
+Lands+lands.selection.150+Defines max chunk selection
+Lands+lands.selection.200+Defines max chunk selection
+Lands+lands.selection.250+Defines max chunk selection
+Lands+lands.selection.500+Defines max chunk selection
+Lands+lands.selection.750+Defines max chunk selection
+Lands+lands.selection.1000+Defines max chunk selection
 TCChallenge+tcchallenge.admin+Grants ability to right-click any tree heart log or pylon and access the GUIs AND makes the player a Member of every tree on the server
 TCChallenge+tcchallenge.admin.gui+Grants ability to use /tcchallenge command
 TCChallenge+tcchallenge.benchmark+Displays the Root Task benchmark in the actionbar
