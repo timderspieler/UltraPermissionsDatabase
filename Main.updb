@@ -3393,28 +3393,15 @@ ReportPlus+ReportPlus.nodelay+Allow to see the reports alert on join.
 ReportPlus+ReportPlus.vanish.see+Allow to see vanished players.
 ReportPlus+ReportPlus.reports.see+Allow to see all reports messages.
 ReportPlus+ReportPlus.reports+Allows to use command /report.
-UltraPermissions+ultrapermissions.chatcolor.&0+Allow the player to talk in §0Black.
-UltraPermissions+ultrapermissions.chatcolor.&1+Allow the player to talk in §1Dark Blue.
-UltraPermissions+ultrapermissions.chatcolor.&2+Allow the player to talk in §2Dark Green.
-UltraPermissions+ultrapermissions.chatcolor.&3+Allow the player to talk in §3Cyan.
-UltraPermissions+ultrapermissions.chatcolor.&4+Allow the player to talk in §4Dark Red.
-UltraPermissions+ultrapermissions.chatcolor.&5+Allow the player to talk in §5Dark Purple.
-UltraPermissions+ultrapermissions.chatcolor.&6+Allow the player to talk in §6Orange/Gold.
-UltraPermissions+ultrapermissions.chatcolor.&7+Allow the player to talk in §7Light Grey/Silver.
-UltraPermissions+ultrapermissions.chatcolor.&8+Allow the player to talk in §8Dark Grey.
-UltraPermissions+ultrapermissions.chatcolor.&9+Allow the player to talk in §9Light Blue.
-UltraPermissions+ultrapermissions.chatcolor.&a+Allow the player to talk in §aLight Green.
-UltraPermissions+ultrapermissions.chatcolor.&b+Allow the player to talk in §bBaby Blue.
-UltraPermissions+ultrapermissions.chatcolor.&c+Allow the player to talk in §cLight Red.
-UltraPermissions+ultrapermissions.chatcolor.&d+Allow the player to talk in §dLight Purple.
-UltraPermissions+ultrapermissions.chatcolor.&e+Allow the player to talk in §eYellow.
-UltraPermissions+ultrapermissions.chatcolor.&f+Allow the player to talk in §fWhite.
-UltraPermissions+ultrapermissions.chatcolor.&l+Allow the player to talk with Bold letters.
-UltraPermissions+ultrapermissions.chatcolor.&n+Allow the player to talk with an Underline.
-UltraPermissions+ultrapermissions.chatcolor.&o+Allow the player to talk with Itallic letters.
-UltraPermissions+ultrapermissions.chatcolor.&k+Allow the player to talk in Magicical letters.
-UltraPermissions+ultrapermissions.chatcolor.&m+Allow the player to talk with a Strike in the text.
-UltraPermissions+ultrapermissions.chatcolor.&r+Allow the player Reset the color.
+UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban someone
+UltraPunishments+ultrapunishments.ban.revoke+Allows a player to unban someone
+UltraPunishments+ultrapunishments.mute.execute+Allows a player to mute someone
+UltraPunishments+ultrapunishments.mute.revoke+Allows a player to unmute someone
+UltraPunishments+ultrapunishments.manage.templates+Allows a player to edit punishment templates
+UltraPunishments+ultrapunishments.manage.settings+Allows a player to view and edit settings
+UltraPunishments+ultrapunishments.report.respond+Allows a player to view and respond reports
+UltraPunishments+ultrapunishments.warning.execute+Allows a player to issue a warning
+UltraPunishments+ultrapunishments.warning.revoke+Allows a player to remove a warning
 TicTacToe+tictactoe.admin+Create/Delete TicTacToe Table's+/tictactoe
 ForceSay+forcesay.use+Allows Use Of Force Say+/fsay,/forcesay
 PingNachricht+pingnachricht.main+Gives access to all /pingnachricht [/pn] commands+/pingnachricht reload,/pingnachricht setcounter <args>
