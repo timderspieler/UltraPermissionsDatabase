@@ -2919,12 +2919,6 @@ EpicFurnaces+EpicFurnaces.overview+Will allow players to access the EpicFurnaces
 EpicFurnaces+EpicFurnaces.bypass+Giving this permission to a player will allow them to bypass build/interact restrictions within EpicFurnaces
 EpicFurnaces+EpicFurnaces.Upgrade.*+Upgrading of furnaces with economy and xp
 EpicFurnaces+EpicFurnaces.Upgrade.XP+Upgrading of furnaces with experience
-CounterCraft+countercraft.cmd.help+See all commands of CounterCraft and other plugins of TechXcrafter+.help
-CounterCraft+configurations.reload+.rlconfig to reload the configuration.+.configreload,.reloadconfig
-CounterCraft+countercraft.configuration+Allow to enable configurationMode and edit maps.+/configuration
-CounterCraft+countercraft.endgame+End a game forced.+/endgame
-CounterCraft+countercraft.skipcountdown+Skip the remain waiting time, start a game immediately.+/skip
-CounterCraft+countercraft.cheat+allow to add or remove coins from a player.+/coins
 TitleManager+titlemanager.update.notify+The update checker will message all players with this permission.
 TitleManager+titlemanager.command.abroadcast+Allows players to broadcast.+/tm abc,/tm abroadcast
 TitleManager+titlemanager.command.message+Allows messaging a broadcast to a player.+/tm msg [playerName]
