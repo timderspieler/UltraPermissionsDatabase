@@ -3970,3 +3970,16 @@ ItemFrameShops+ifs.command.removeshopinselection+Removes every shop in your Worl
 ItemFrameShops+ ifs.command.recalcshopsinselection+Recalculates prices for every shop in your WorldEdit selection.
 ItemFrameShops+ifs.command.sellall+Sells your entire inventory at IFS calculated prices.
 ItemFrameShops+ifs.command.sellhand+Sells the item in your hand using a price calculated by IFS.
+Realistic_World+rwg.*+Access from all RWG Permissions.
+Realistic_World+rwg.use+Access to the RWG Help.+/rwg help {<Page>},/rwg alias [<RWG-Subcommand>],/rwg installation,/rwg permissions {<Page>},/rwg version
+Realistic_World+rwg.info+Get the RWG Info-Message on join.
+Realistic_World+rwg.cmd.restart+Access to the RWG restart server command.+/rwg restart
+Realistic_World+rwg.cmd.chests+Access to the RWG chests command.+/rwg chests
+Realistic_World+rwg.cmd.paste+Access to the RWG schematic paste command.+/rwg paste [<Name>]
+Realistic_World+rwg.cmd.save+Access to the RWG schematic save command.+/rwg save [<Name>] [<Position>]
+Realistic_World+rwg.cmd.position+Access to the RWG schematic position tool and command.+/rwg position [toggle / item]
+Realistic_World+rwg.cmd.convert+Access to the RWG schematic converter to convert old schematics to the newer format+/rwg convert [<Name>]
+Realistic_World+rwg.cmd.timings+Access to the RWG timings of all operations.+/rwg timings [all / average / <Number>] [all / <Task>] {<Page>}
+Realistic_World+rwg.cmd.biome+Get the RWGBiome from the place where you are.+/rwg biome
+Realistic_World+rwg.cmd.biome.find+Search for a RWBiome's location.+/rwg biome find [<RWGBiome>]
+Realistic_World+rwg.cmd.biome.teleport+Teleport to a spefic RWGBiome.+/rwg biome tp [<RWGBiome>]
