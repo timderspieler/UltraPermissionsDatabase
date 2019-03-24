@@ -3970,3 +3970,217 @@ ItemFrameShops+ifs.command.removeshopinselection+Removes every shop in your Worl
 ItemFrameShops+ ifs.command.recalcshopsinselection+Recalculates prices for every shop in your WorldEdit selection.
 ItemFrameShops+ifs.command.sellall+Sells your entire inventory at IFS calculated prices.
 ItemFrameShops+ifs.command.sellhand+Sells the item in your hand using a price calculated by IFS.
+BentoBox+bentobox.admin+Allow bentobox command usage
+BentoBox+acidisland.admin.clearresetall+Allow clearing of island reset limit of all players
+BentoBox+acidisland.admin.delete+Let a player completely remove a player (including island)
+BentoBox+acidisland.admin.deleteisland+	Let a player completely remove the island the player is on
+BentoBox+acidisland.admin.noban+Player cannot be banned from an island
+BentoBox+acidisland.admin.purge+Let a player purge old islands
+BentoBox+acidisland.admin.register+Let a player register the nearest island to another player
+BentoBox+acidisland.admin.reload+Reload the config.yml
+BentoBox+acidisland.admin.reserve+Reserves an empty spot for a player's next island
+BentoBox+acidisland.admin.setlanguage+Resets all player languages and sets the default language
+BentoBox+acidisland.admin.setrange+Allows setting of island protection range
+BentoBox+acidisland.admin.setspawn+Allows use of spawn tools
+BentoBox+acidisland.admin.settingsreset+Resets all the islands to default protection settings
+BentoBox+acidisland.admin.unregister+Removes a player from an island without deleting the island blocks
+BentoBox+acidisland.mod.bypasscooldowns+Allow moderator to bypass cooldowns
+BentoBox+acidisland.mod.bypassexpel+Allow moderator to bypass island expulsion
+BentoBox+acidisland.mod.bypasslock+Bypasses an island lock
+BentoBox+acidisland.mod.bypassprotect+Allow moderator to bypass island protection
+BentoBox+acidisland.mod.clearreset+Allow clearing of island reset limit
+BentoBox+acidisland.mod.info+Let a moderator see info on a player
+BentoBox+acidisland.mod.lock+Locks or unlocks an island
+BentoBox+acidisland.mod.name+Enables naming of player's islands
+BentoBox+acidisland.mod.resethome+Allows setting or reseting of a player's home position
+BentoBox+acidisland.mod.resetname+Enables reset of player's island names
+BentoBox+acidisland.mod.team+Enables modification of teams via kick and add commands
+BentoBox+acidisland.mod.tp+Allows teleport to an island
+BentoBox+acidisland.island+Allow /island command usage
+BentoBox+acidisland.island.ban+	Allows banning of visitors
+BentoBox+acidisland.island.create+Allow island creation
+BentoBox+acidisland.island.expel+Allows expelling of visitors
+BentoBox+acidisland.island.home+Allow teleporting to player island
+BentoBox+acidisland.island.info+Let the player check their island level
+BentoBox+acidisland.island.language+Player can select a language
+BentoBox+acidisland.island.lock+Allows island locking
+BentoBox+acidisland.island.name+Player can set the name of their island
+BentoBox+acidisland.island.reset+Player can use the island reset or restart command
+BentoBox+acidisland.island.sethome+Let the player set their island teleport point
+BentoBox+acidisland.island.settings+Player can see server settings
+BentoBox+acidisland.island.spawn+Player can use the island spawn command if spawn exists
+BentoBox+acidisland.island.team+Let a player use team commands
+BentoBox+acidisland.island.team.coop+Let a player use team coop commands
+BentoBox+acidisland.island.team.trust+Let a player use team trust commands
+BentoBox+acidisland.settings.*+	Allow access to settings panel items
+BentoBox+acidisland.admin.biomes+Player can use admin biomes command that opens GUI
+BentoBox+acidisland.admin.biomes.edit+Player can use admin biomes edit command that edits existing biomes parameters
+BentoBox+acidisland.admin.biomes.import+Player can use admin biomes import command allows to import biomes in world
+BentoBox+acidisland.admin.biomes.set+Player can use admin biomes set command that allows to change other player biomes
+BentoBox+acidisland.admin.biomes.settings+Player can use admin biomes settings command that allows to change addon settings
+BentoBox+acidisland.biomes+Player can use biomes command that opens GUI
+BentoBox+acidisland.biomes.info+Player can use biomes info command
+BentoBox+acidisland.biomes.set+Player can use biomes set command
+BentoBox+acidisland.admin.challenges+Access /acid challenges admin commands
+BentoBox+acidisland.challenges+Let the player use the /ai challenges command
+BentoBox+acidisland.intopten+Player is in the top ten
+BentoBox+acidisland.island.level+Player can use /ai level command
+BentoBox+acidisland.island.top+Player can use /ai top top ten command
+BentoBox+acidisland.admin.level+Player can use admin level command
+BentoBox+acidisland.admin.topten+Player can use admin top ten command
+BentoBox+acidisland.limits.admin.limits+Player can use admin limits command
+BentoBox+acidisland.limits.player.limits+Player can use limits command
+BentoBox+acidisland.island.warp+Player can use /ai warp or ai warps commands
+BentoBox+acidisland.island.addwarp+Player can create a welcome warp sign
+BentoBox+bskyblock.admin.clearresetall+Allow clearing of island reset limit of all players
+BentoBox+bskyblock.admin.delete+Let a player completely remove a player (including island)
+BentoBox+bskyblock.admin.deleteisland+Let a player completely remove the island the player is on
+BentoBox+bskyblock.admin.noban+Player cannot be banned from an island
+BentoBox+bskyblock.admin.purge+Let a player purge old islands
+BentoBox+bskyblock.admin.register+Let a player register the nearest island to another player
+BentoBox+bskyblock.admin.reload+Reload the config.yml
+BentoBox+bskyblock.admin.reserve+Reserves an empty spot for a player's next island
+BentoBox+bskyblock.admin.setlanguage+Resets all player languages and sets the default language
+BentoBox+bskyblock.admin.setrange+Allows setting of island protection range
+BentoBox+bskyblock.admin.setspawn+Allows use of spawn tools
+BentoBox+bskyblock.admin.settingsreset+Resets all the islands to default protection settings
+BentoBox+bskyblock.admin.unregister+Removes a player from an island without deleting the island blocks
+BentoBox+bskyblock.mod.bypasscooldowns+Allow moderator to bypass cooldowns
+BentoBox+bskyblock.mod.bypassexpel+Allow moderator to bypass island expulsion
+BentoBox+bskyblock.mod.bypasslock+Bypasses an island lock
+BentoBox+bskyblock.mod.bypassprotect+Allow moderator to bypass island protection
+BentoBox+bskyblock.mod.clearreset+Allow clearing of island reset limit
+BentoBox+bskyblock.mod.info+Let a moderator see info on a player
+BentoBox+bskyblock.mod.lock+Locks or unlocks an island
+BentoBox+bskyblock.mod.resethome+Allows setting or reseting of a player's home position
+BentoBox+bskyblock.mod.name+Enables naming of player's islands
+BentoBox+bskyblock.mod.resetname+Enables reset of player's island names
+BentoBox+bskyblock.mod.team+Enables modification of teams via kick and add commands
+BentoBox+bskyblock.mod.tp+Allows teleport to an island
+BentoBox+bskyblock.island+Allow island command usage
+BentoBox+bskyblock.island.ban+Allows banning of visitors
+BentoBox+bskyblock.island.create+Allow island creation
+BentoBox+bskyblock.island.expel+Allows expelling of visitors
+BentoBox+bskyblock.island.home+Allow teleporting to player island
+BentoBox+bskyblock.island.info+Let the player check their island level
+BentoBox+bskyblock.island.language+Player can select a language
+BentoBox+bskyblock.island.lock+Allows island locking
+BentoBox+bskyblock.island.name+Player can set the name of their island
+BentoBox+bskyblock.island.reset+Player can use the island reset or restart command
+BentoBox+bskyblock.island.sethome+Let the player use the sethome command
+BentoBox+bskyblock.island.settings+Player can see server settings
+BentoBox+bskyblock.island.spawn+Player can use the island spawn command if spawn exists
+BentoBox+bskyblock.island.team+Let a player use team commands
+BentoBox+bskyblock.island.team.coop+Let a player use team coop commands
+BentoBox+bskyblock.island.team.trust+Let a player use team trust commands
+BentoBox+bskyblock.settings.*+Allow use of settings on island. Negating this permission or setting to false, would also block all /is command and /is subcommand.
+BentoBox+bskyblock.admin.biomes+Player can use admin biomes command that opens GUI
+BentoBox+bskyblock.admin.biomes.add+Player can use admin biomes add command that adds new biome
+BentoBox+bskyblock.admin.biomes.edit+Player can use admin biomes edit command that edits existing biomes parameters
+BentoBox+bskyblock.admin.biomes.import+Player can use admin biomes import command allows to import biomes in world
+BentoBox+bskyblock.admin.biomes.set+Player can use admin biomes set command that allows to change other player biomes
+BentoBox+bskyblock.admin.biomes.settings+Player can use admin biomes settings command that allows to change addon settings
+BentoBox+bskyblock.biomes+Player can use biomes command that opens GUI
+BentoBox+bskyblock.biomes.info+Player can use biomes info command
+BentoBox+bskyblock.biomes.set+Player can use biomes set command
+BentoBox+bskyblock.admin.challenges+Access /bsbadmin challenges admin commands	
+BentoBox+bskyblock.challenges+Let the player use the /island challenges command
+BentoBox+bskyblock.intopten+Player is in the top ten
+BentoBox+bskyblock.island.level+Player can use /bsbadmin level command
+BentoBox+bskyblock.island.top+Player can use /bsbadmin top top ten command
+BentoBox+bskyblock.admin.level+Player can use admin level command
+BentoBox+bskyblock.admin.topten+Player can use admin top ten command
+BentoBox+bskyblock.limits.admin.limits+Player can use admin limits command
+BentoBox+bskyblock.limits.player.limits+Player can use limits command
+BentoBox+bskyblock.island.warp+Player can use /bskyblock warp or /bskyblock warps commands
+BentoBox+bskyblock.island.addwarp+Player can create a welcome warp sign
+BentoBox+caveblock.admin.clearresetall+Allow clearing of cave reset limit of all players
+BentoBox+caveblock.admin.delete+Let a player completely remove a player (including cave)
+BentoBox+caveblock.admin.deleteisland+Let a player completely remove the cave the player is on
+BentoBox+caveblock.admin.noban+Player cannot be banned from an cave
+BentoBox+caveblock.admin.purge+Let a player purge old caves
+BentoBox+caveblock.admin.register+Let a player register the nearest cave to another player
+BentoBox+caveblock.admin.reload+Reload the config.yml
+BentoBox+caveblock.admin.reserve+Reserves an empty spot for a player's next cave
+BentoBox+caveblock.admin.setlanguage+Resets all player languages and sets the default language
+BentoBox+caveblock.admin.setspawn+Allows use of spawn tools
+BentoBox+caveblock.admin.setrange+Allows setting of cave protection range
+BentoBox+caveblock.admin.settingsreset+Resets all the caves to default protection settings
+BentoBox+caveblock.admin.unregister+Removes a player from an cave without deleting the cave blocks
+BentoBox+caveblock.mod.bypasscooldowns+Allow moderator to bypass cooldowns
+BentoBox+caveblock.mod.bypassexpel+Allow moderator to bypass cave expulsion
+BentoBox+caveblock.mod.bypasslock+Bypasses an cave lock
+BentoBox+caveblock.mod.bypassprotect+Allow moderator to bypass cave protection
+BentoBox+caveblock.mod.clearreset+Allow clearing of cave reset limit
+BentoBox+caveblock.mod.info+Let a moderator see info on a player
+BentoBox+caveblock.mod.lock+Locks or unlocks an cave
+BentoBox+caveblock.mod.name+Enables naming of player's caves
+BentoBox+caveblock.mod.resethome+Allows setting or reseting of a player's home position
+BentoBox+caveblock.mod.resetname+Enables reset of player's cave names
+BentoBox+caveblock.mod.team+Enables modification of teams via kick and add commands
+BentoBox+caveblock.mod.tp+Allows teleport to an cave
+BentoBox+caveblock.skywalker+Allows player to walk over the heigh limit
+BentoBox+caveblock.island+Allow /cave command usage
+BentoBox+caveblock.island.ban+Allows banning of visitors
+BentoBox+caveblock.island.create+Allow cave creation
+BentoBox+caveblock.island.expel+Allows expelling of visitors
+BentoBox+caveblock.island.home+Allow teleporting to player cave
+BentoBox+caveblock.island.info+Let the player check their cave level
+BentoBox+caveblock.island.language+Player can select a language
+BentoBox+caveblock.island.lock+Allows cave locking
+BentoBox+caveblock.island.name+Player can set the name of their cave
+BentoBox+caveblock.island.reset+Player can use the cave reset or restart command
+BentoBox+caveblock.island.sethome+Let the player set their cave teleport point
+BentoBox+caveblock.island.settings+Player can see server settings
+BentoBox+caveblock.island.spawn+Player can use the cave spawn command if spawn exists
+BentoBox+caveblock.island.team+Let a player use team commands
+BentoBox+caveblock.island.team.coop+Let a player use team coop commands
+BentoBox+caveblock.island.team.trust+Let a player use team trust commands
+BentoBox+caveblock.settings.*+Allow use of settings on cave
+BentoBox+caveblock.admin.challenges+Access /cbadmin challenges admin commands
+BentoBox+caveblock.challenges+Let the player use the /cave challenges command
+BentoBox+caveblock.limits.admin.limits+Player can use admin limits command
+BentoBox+caveblock.limits.player.limits+Player can use limits command
+BentoBox+skygrid.admin.challenges+Access /skygrid challenges admin commands
+BentoBox+skygrid.challenges+Let the player use the /skygrid challenges command
+BentoBox+skygrid.admin.clearresetall+Allow clearing of area reset limit of all players
+BentoBox+skygrid.admin.delete+Let a player completely remove a player (regens area)
+BentoBox+skygrid.admin.deleteisland+Let a player completely regenerate the area the player is on
+BentoBox+skygrid.admin.noban+Player cannot be banned from an area
+BentoBox+skygrid.admin.register+Let a player register the nearest area to another player
+BentoBox+skygrid.admin.reload+Reload the config.yml
+BentoBox+skygrid.admin.reserve+Reserves an empty spot for a player's next area
+BentoBox+skygrid.admin.setlanguage+Resets all player languages and sets the default language
+BentoBox+skygrid.admin.setspawn+Allows use of spawn tools
+BentoBox+skygrid.admin.setrange+Allows setting of area protection range
+BentoBox+skygrid.admin.settingsreset+Resets all the areas to default protection settings
+BentoBox+skygrid.admin.unregister+Removes a player from an area without regenerating the area blocks
+BentoBox+skygrid.mod.bypasscooldowns+Allow moderator to bypass cooldowns
+BentoBox+skygrid.mod.bypassexpel+Allow moderator to bypass area expulsion
+BentoBox+skygrid.mod.bypasslock+Bypasses an area lock
+BentoBox+skygrid.mod.bypassprotect+Allow moderator to bypass area protection
+BentoBox+skygrid.mod.clearreset+Allow clearing of area reset limit
+BentoBox+skygrid.mod.info+Let a moderator see info on a player
+BentoBox+skygrid.mod.lock+Locks or unlocks an area
+BentoBox+skygrid.mod.name+Enables naming of player's areas
+BentoBox+skygrid.mod.resethome+Allows setting or reseting of a player's home position
+BentoBox+skygrid.mod.resetname+Enables reset of player's area names
+BentoBox+skygrid.mod.team+Enables modification of teams via kick and add commands
+BentoBox+skygrid.mod.tp+Allows teleport to an area
+BentoBox+skygrid.island.ban+Allows banning of visitors
+BentoBox+skygrid.island.expel+Allows expelling of visitors
+BentoBox+skygrid.island.home+Allow teleporting to player area
+BentoBox+skygrid.island.language+Player can select a language
+BentoBox+skygrid.island.lock+Allows area locking
+BentoBox+skygrid.island.name+Player can set the name of their area
+BentoBox+skygrid.island.reset+Player can use the area reset or restart command
+BentoBox+skygrid.island.sethome+Let the player use the sethome command
+BentoBox+skygrid.island.settings+Player can see settings
+BentoBox+skygrid.island.spawn+Player can use the area spawn command if spawn exists
+BentoBox+skygrid.island.team+Let a player use team commands
+BentoBox+skygrid.island.team.coop+Let a player use team coop commands
+BentoBox+skygrid.island.team.trust+Let a player use team trust commands
+BentoBox+skygrid.settings.*+Allow use of settings on area
+BentoBox+skygrid.skygrid+Use the /skygrid command
+BentoBox+addon.challenges+Let the player use the /challenges command. Must be enabled in config.
+BentoBox+addon.admin.challenges+Access the /challengesadmin command. Must be enabled in config.
