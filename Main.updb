@@ -4,6 +4,18 @@
 #
 # Format: (Plugin)+(Permission)+(Description)+(Commands (seperated with ,))
 #
+TokenEnchant+tokenenchant.sign.create+Allows you to create a TokenEnchant sign
+TokenEnchant+tokenenchant.reload+Allows you to use /te reload
+TokenEnchant+tokenenchant.add+Allows you to use /te add command
+TokenEnchant+tokenenchant.remove+Allows you to use /te remove command
+TokenEnchant+tokenenchant.balance+Allows you to use /te balance command
+TokenEnchant+tokenenchant.balance.other+Allows you to use /te balance command
+TokenEnchant+tokenenchant.withdraw+Allows you to use /te withdraw command
+TokenEnchant+tokenenchant.expexchange+Allows you to use /te expexchange command
+TokenEnchant+tokenenchant.alias.reload+Allows you to use /tealiasreload command
+TokenEnchant+tokenenchant.enchant+Allows you to use /te enchant command
+TokenEnchant+tokenenchant.refund+Allows you to use /te refund
+TokenEnchant+tokenenchant.refund.other+Allows you to use /te refund <enchant_name>
 TownyGUI+townygui.*+Full access to the plugin
 TownyGUI+townygui.command.*+Access to all /tgui commands
 TownyGUI+townygui.command.mainmenu+Opens Main Menu+/tgui main
