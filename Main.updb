@@ -4,6 +4,25 @@
 #
 # Format: (Plugin)+(Permission)+(Description)+(Commands (seperated with ,))
 #
+TownyGUI+townygui.*+Full access to the plugin
+TownyGUI+townygui.command.*+Access to all /tgui commands
+TownyGUI+townygui.command.mainmenu+Opens Main Menu+/tgui main
+TownyGUI+townygui.command.townmenu+Opens Town Menu+/tgui town
+TownyGUI+townygui.command.townymenu+Opens Towny Menu+/tgui towny
+TownyGUI+townygui.command.plotmenu+Opens Plot Menu+/tgui plot
+TownyGUI+townygui.command.residentmenu+Opens Resident Menu+/tgui resident
+TownyGUI+townygui.command.nationmenu+Opens Nation Menu+/tgui nation
+TownyGUI+townygui.command.townyworldmenu+Opens TownyWorld Menu+/tgui townyworld
+TownyGUI+townygui.admin.reload+Reload the configs+/tgui reload
+TownyGUI+townygui.admin.version+Check your version+/tgui version
+TownyGUI+townygui.signs.*+Create All GUI Signs
+TownyGUI+townygui.signs.main+Create Main Menu GUI Sign
+TownyGUI+townygui.signs.town+Create Town Menu GUI Sign
+TownyGUI+townygui.signs.towny+Create Towny Menu GUI Sign
+TownyGUI+townygui.signs.plot+Create Plot Menu GUI Sign
+TownyGUI+townygui.signs.resident+Create Resident Menu GUI Sign
+TownyGUI+townygui.signs.nation+Create Nation Menu GUI Sign
+TownyGUI+townygui.signs.townyworld+Create TownyWorld Menu GUI Sign
 Lands+lands.command.menu+Open the Lands Menu+/lands menu
 Lands+lands.command.menu+Open the Lands Menu+/lands menu
 Lands+lands.chunks.1+Defines max chunk claim for player
