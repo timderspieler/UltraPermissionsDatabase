@@ -4001,3 +4001,16 @@ ItemFrameShops+ifs.command.removeshopinselection+Removes every shop in your Worl
 ItemFrameShops+ ifs.command.recalcshopsinselection+Recalculates prices for every shop in your WorldEdit selection.
 ItemFrameShops+ifs.command.sellall+Sells your entire inventory at IFS calculated prices.
 ItemFrameShops+ifs.command.sellhand+Sells the item in your hand using a price calculated by IFS.
+NoCheatersHere+nch.getip+Get a player's IP Address+/getip
+NoCheatersHere+nch.getprofile+Get a player's NameMC profile+/getprofile
+NoCheatersHere+nch.getinv+Get a player's inventory+/getinv
+NoCheatersHere+nch.canadvertise+Lets the player bypass the Anti-Advertiser
+NoCheatersHere+nch.allowedflight+Lets the player bypass the Anti-Flight feature
+NoCheatersHere+nch.notify+Notifies the player when the plugin notices that something isn't right
+NoCheatersHere+nch.spectate+Allows you to spectate a player+/spec
+NoCheatersHere+nch.ban+Allows the player to open the ban GUI+/ban
+NoCheatersHere+nch.unban+Allows the player to unban a player+/unban
+NoCheatersHere+nch.staffchat+Allows the player to access the staff chat+/sc
+NoCheatersHere+nch.helperchat+Allows the player to access the helper chat+/hc
+NoCheatersHere+nch.adminchat+Allows the player to access the admin chat+/ac
+NoCheatersHere+nch.config+Allows the player to open the plugin's config+/nch config
