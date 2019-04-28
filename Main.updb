@@ -3516,6 +3516,7 @@ Vehicles+Tanks.giveTank+giveTank command permission
 Vehicles+Planes.openShop+Permission to open the shop
 Vehicles+Brooms.openShop+Permission to open the shop
 Vehicles+Bikes.overrideOwner.ride+Use another's bike
+WorldEdit+worldedit.*+Grants a user all WorldEdit permissions
 WorldEdit+worldedit.reload+Reload WorldEdit+/we reload
 WorldEdit+worldedit.help+Displays help for the given command or lists all commands.+/we help
 WorldEdit+worldedit.fast+Toggle fast mode+//fast
