@@ -4001,3 +4001,16 @@ ItemFrameShops+ifs.command.removeshopinselection+Removes every shop in your Worl
 ItemFrameShops+ ifs.command.recalcshopsinselection+Recalculates prices for every shop in your WorldEdit selection.
 ItemFrameShops+ifs.command.sellall+Sells your entire inventory at IFS calculated prices.
 ItemFrameShops+ifs.command.sellhand+Sells the item in your hand using a price calculated by IFS.
+ChestProtect+chestprotect.bypass+Makes the player bypass all protections.
+ChestProtect+chestprotect.gui.protection.teleport+Allows the teleportation to the protection through the GUI.
+ChestProtect+chestprotect.bypass.edit+Allows to edit the protections of other players.
+ChestProtect+chestprotect.bypass.interact+Allows the interaction with protectoins of other players.
+ChestProtect+chestprotect.admin.player+Gives access to the admin player command.+/protect admin
+ChestProtect+chestprotect.admin.player.delete+Allows the deletion of player data.
+ChestProtect+chestprotect.command.lock+Gives access to the lock player command.+/protect lock
+ChestProtect+chestprotect.command.unlock+Gives access to the unlock player command.+/protect unlock
+ChestProtect+chestprotect.command.trust+Gives access to the trust player command.+/protect trust
+ChestProtect+chestprotect.command.untrust+Gives access to the untrust player command.+/protect untrust
+ChestProtect+chestprotect.command.menu+Gives access to the menu player command which opens the GUI main menu.+/protect menu
+ChestProtect+chestprotect.command.admin+Gives access to the admin player command.+/protect admin
+ChestProtect+chestprotect.command.reload+Gives access to the reload player command.+/protect reload
