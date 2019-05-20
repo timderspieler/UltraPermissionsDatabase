@@ -4,6 +4,37 @@
 #
 # Format: (Plugin)+(Permission)+(Description)+(Commands (seperated with ,))
 #
+TokenEnchant+tokenenchant.sign.create+Allows you to create a TokenEnchant sign
+TokenEnchant+tokenenchant.reload+Allows you to use /te reload
+TokenEnchant+tokenenchant.add+Allows you to use /te add command
+TokenEnchant+tokenenchant.remove+Allows you to use /te remove command
+TokenEnchant+tokenenchant.balance+Allows you to use /te balance command
+TokenEnchant+tokenenchant.balance.other+Allows you to use /te balance command
+TokenEnchant+tokenenchant.withdraw+Allows you to use /te withdraw command
+TokenEnchant+tokenenchant.expexchange+Allows you to use /te expexchange command
+TokenEnchant+tokenenchant.alias.reload+Allows you to use /tealiasreload command
+TokenEnchant+tokenenchant.enchant+Allows you to use /te enchant command
+TokenEnchant+tokenenchant.refund+Allows you to use /te refund
+TokenEnchant+tokenenchant.refund.other+Allows you to use /te refund <enchant_name>
+TownyGUI+townygui.*+Full access to the plugin
+TownyGUI+townygui.command.*+Access to all /tgui commands
+TownyGUI+townygui.command.mainmenu+Opens Main Menu+/tgui main
+TownyGUI+townygui.command.townmenu+Opens Town Menu+/tgui town
+TownyGUI+townygui.command.townymenu+Opens Towny Menu+/tgui towny
+TownyGUI+townygui.command.plotmenu+Opens Plot Menu+/tgui plot
+TownyGUI+townygui.command.residentmenu+Opens Resident Menu+/tgui resident
+TownyGUI+townygui.command.nationmenu+Opens Nation Menu+/tgui nation
+TownyGUI+townygui.command.townyworldmenu+Opens TownyWorld Menu+/tgui townyworld
+TownyGUI+townygui.admin.reload+Reload the configs+/tgui reload
+TownyGUI+townygui.admin.version+Check your version+/tgui version
+TownyGUI+townygui.signs.*+Create All GUI Signs
+TownyGUI+townygui.signs.main+Create Main Menu GUI Sign
+TownyGUI+townygui.signs.town+Create Town Menu GUI Sign
+TownyGUI+townygui.signs.towny+Create Towny Menu GUI Sign
+TownyGUI+townygui.signs.plot+Create Plot Menu GUI Sign
+TownyGUI+townygui.signs.resident+Create Resident Menu GUI Sign
+TownyGUI+townygui.signs.nation+Create Nation Menu GUI Sign
+TownyGUI+townygui.signs.townyworld+Create TownyWorld Menu GUI Sign
 Lands+lands.command.menu+Open the Lands Menu+/lands menu
 Lands+lands.command.menu+Open the Lands Menu+/lands menu
 Lands+lands.chunks.1+Defines max chunk claim for player
@@ -224,6 +255,40 @@ PigmanAttention+pigmanattention.admin+Gives access to Admin GUI
 betterSleeping+bettersleeping.reload+Reloads all BetterSleeping configuration files+/bs reload,/bettersleeping reload
 citizens+citizens.admin+This allows players to edit 'server' owned NPCs.
 citizens+citizens.npc.+An unknown description
+DiscordMinecraft+discordminecraft.discordsay+Sends a message to the specified channel.
+DiscordMinecraft+discordminecraft.discordlink+Initiates an account link with Discord.
+DiscordMinecraft+discordminecraft.discordunlink+Unlinks your account from Discord.
+DiscordMinecraft+discordminecraft.tdc+Toggles whether you see chat syncing with Discord.
+DiscordMinecraft+discordminecraft.sdc+Sends a chat message to Discord.
+DiscordMinecraft+discordminecraft.discord+Sends the player a message with a link to the Discord server.
+DeluxeCombat+deluxecombat.bypasscommand+Lets you still use blocked commands while in combat.
+DeluxeCombat+deluxecombat.bypassquit+Lets you quit while in combat without any bad punishments.
+DeluxeCombat+deluxecombat.bypassworld+Lets you still combat tag someone else in a disabled world.
+DeluxeCombat+deluxecombat.bypasshitdelay+Lets you exceed the limit of the hit delay to maximum.
+DeluxeCombat+deluxecombat.secretmeme+Memes are included, who knows what this permission will do...
+Confiscate+confiscate.commands.list+Access the /c list command to browse all commands of this plugin.
+Confiscate+confiscate.commands.reload+Access the /c reload command to reload the configuration.
+Confiscate+confiscate.commands.room+Access the /c room command.
+Confiscate+confiscate.commands.room.tool+Obtain the room tool that sets room's foundation.
+Confiscate+confiscate.commands.room.tp+Be teleported to the chest room.
+Confiscate+confiscate.commands.inv+Access the /c inv command.
+Confiscate+confiscate.commands.inv.view+View inventories of other online and offline players.
+Confiscate+confiscate.commands.inv.enderview+View ender chest of other online and offline players.
+Confiscate+confiscate.commands.inv.armor+View armor content of other online and offline players.
+Confiscate+confiscate.commands.inv.write+Permission to manipulate with the content of inventories or armor. Defaults to false, that means that the viewer only sees the content as it is.
+Confiscate+confiscate.commands.log+Access the /c log command.
+Confiscate+confiscate.commands.log.browse+Browse players' log.
+Confiscate+confiscate.commands.stats+View stored log statistics.
+Confiscate+confiscate.bypass.inventory+Permission to bypass inventory scan, e.g. when they log in or change world.
+Confiscate+confiscate.bypass.stacks+Permission to allow items stacked unnaturally (e.g. 64x minecarts).
+Confiscate+confiscate.bypass.worldedit+Permission to bypass item limit for WorldEdit operations. Since some operations work with thousands of items, we do not allow only certain items to be bypassed because of the performance impact could freeze the server.
+Confiscate+confiscate.notify.confiscate+Permission to be notified when something is confiscated.
+Confiscate+confiscate.notify.commandspy+Permission to receive alerts when a command is executed.
+Confiscate+confiscate.notify.updates+Permission to receive alerts on join when a new version is available.
+Confiscate+confiscate.room.open+Permission to open chests in the chest room.
+Confiscate+confiscate.room.signs+Permission to view player logs by clicking on their sign in the chest room.
+Confiscate+confiscate.room.tool+Permission to use the room foundation tool.
+Confiscate+confiscate.exempt.commandspy+Player will be ignored from command spy.
 CratesPlus+cratesplus.admin+Access to all /crate commands. Defaults to OP.+/crate settings,/crate reload,/crate create,/crate rename,/crate delete,/crate crate,/crate key
 CratesPlus+cratesplus.updates+Any player with this permission will be notified of updates. Defaults to OP.
 FactionsPet+factionspets.command.info+This command shows you pet info+/pet info
@@ -3485,6 +3550,7 @@ Vehicles+Tanks.giveTank+giveTank command permission
 Vehicles+Planes.openShop+Permission to open the shop
 Vehicles+Brooms.openShop+Permission to open the shop
 Vehicles+Bikes.overrideOwner.ride+Use another's bike
+WorldEdit+worldedit.*+Grants a user all WorldEdit permissions
 WorldEdit+worldedit.reload+Reload WorldEdit+/we reload
 WorldEdit+worldedit.help+Displays help for the given command or lists all commands.+/we help
 WorldEdit+worldedit.fast+Toggle fast mode+//fast
@@ -4184,3 +4250,29 @@ BentoBox+skygrid.settings.*+Allow use of settings on area
 BentoBox+skygrid.skygrid+Use the /skygrid command
 BentoBox+addon.challenges+Let the player use the /challenges command. Must be enabled in config.
 BentoBox+addon.admin.challenges+Access the /challengesadmin command. Must be enabled in config.
+Realistic_World+rwg.*+Access from all RWG Permissions.
+Realistic_World+rwg.use+Access to the RWG Help.+/rwg help {<Page>},/rwg alias [<RWG-Subcommand>],/rwg installation,/rwg permissions {<Page>},/rwg version
+Realistic_World+rwg.info+Get the RWG Info-Message on join.
+Realistic_World+rwg.cmd.restart+Access to the RWG restart server command.+/rwg restart
+Realistic_World+rwg.cmd.chests+Access to the RWG chests command.+/rwg chests
+Realistic_World+rwg.cmd.paste+Access to the RWG schematic paste command.+/rwg paste [<Name>]
+Realistic_World+rwg.cmd.save+Access to the RWG schematic save command.+/rwg save [<Name>] [<Position>]
+Realistic_World+rwg.cmd.position+Access to the RWG schematic position tool and command.+/rwg position [toggle / item]
+Realistic_World+rwg.cmd.convert+Access to the RWG schematic converter to convert old schematics to the newer format+/rwg convert [<Name>]
+Realistic_World+rwg.cmd.timings+Access to the RWG timings of all operations.+/rwg timings [all / average / <Number>] [all / <Task>] {<Page>}
+Realistic_World+rwg.cmd.biome+Get the RWGBiome from the place where you are.+/rwg biome
+Realistic_World+rwg.cmd.biome.find+Search for a RWBiome's location.+/rwg biome find [<RWGBiome>]
+Realistic_World+rwg.cmd.biome.teleport+Teleport to a spefic RWGBiome.+/rwg biome tp [<RWGBiome>]
+ChestProtect+chestprotect.bypass+Makes the player bypass all protections.
+ChestProtect+chestprotect.gui.protection.teleport+Allows the teleportation to the protection through the GUI.
+ChestProtect+chestprotect.bypass.edit+Allows to edit the protections of other players.
+ChestProtect+chestprotect.bypass.interact+Allows the interaction with protectoins of other players.
+ChestProtect+chestprotect.admin.player+Gives access to the admin player command.+/protect admin
+ChestProtect+chestprotect.admin.player.delete+Allows the deletion of player data.
+ChestProtect+chestprotect.command.lock+Gives access to the lock player command.+/protect lock
+ChestProtect+chestprotect.command.unlock+Gives access to the unlock player command.+/protect unlock
+ChestProtect+chestprotect.command.trust+Gives access to the trust player command.+/protect trust
+ChestProtect+chestprotect.command.untrust+Gives access to the untrust player command.+/protect untrust
+ChestProtect+chestprotect.command.menu+Gives access to the menu player command which opens the GUI main menu.+/protect menu
+ChestProtect+chestprotect.command.admin+Gives access to the admin player command.+/protect admin
+ChestProtect+chestprotect.command.reload+Gives access to the reload player command.+/protect reload
