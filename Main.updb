@@ -2108,7 +2108,7 @@ Tablist+tablist.colorcodes+gives you the permission to use colorcodes.+/colorcod
 ChatItem+chatitem.use+allows your messages to be parsed by the plugin also {item}
 ChatItem+chatitem.reload+allows you to reload the config+/cireload
 ChatItem+chatiem.ignore.cooldown+allows you to bypass the message cooldown (if enabled) 
-CoreProtect+coreprotect.*+Allows access to all of the CoreProtect commands.+/co help,/co inspect,/co rollback,/co restore,/co lookup,/co purge,/co reload,/co version,/co near,/co undo
+CoreProtect+coreprotect.*+Allows access to all of the CoreProtect commands.+/co help,/co inspect,/co rollback,/co restore,/co lookup,/co purge,/co reload,/co version,/co near,/co undo,/co status
 CoreProtect+coreprotect.inspect+Allows access to the CoreProtect inspect command.+/co inspect
 CoreProtect+coreprotect.lookup+Allows access to the CoreProtect lookup command.+/co lookup
 CoreProtect+coreprotect.rollback+Allows access to the CoreProtect rollback command.+/co rollback
@@ -2116,14 +2116,19 @@ CoreProtect+coreprotect.restore+Allows access to the CoreProtect restore command
 CoreProtect+coreprotect.help+Allows access to the CoreProtect help command.+/co help
 CoreProtect+coreprotect.purge+Allows access to the CoreProtect purge command.+/co purge
 CoreProtect+coreprotect.reload+Allows access to the CoreProtect reload command.+/co reload
+CoreProtect+coreprotect.status+Allows access to the CoreProtect status command.+/co status
 CoreProtect+coreprotect.lookup.block+Can be optionally used as a negative permission to prevent block lookups.
 CoreProtect+coreprotect.lookup.chat+Can be optionally used as a negative permission to prevent chat lookups.
 CoreProtect+coreprotect.lookup.click+Can be optionally used as a negative permission to prevent interaction lookups.
 CoreProtect+coreprotect.lookup.command+Can be optionally used as a negative permission to prevent command lookups.
 CoreProtect+coreprotect.lookup.container+Can be optionally used as a negative permission to prevent container lookups.
 CoreProtect+coreprotect.lookup.kill+Can be optionally used as a negative permission to prevent entity kill lookups.
+CoreProtect+coreprotect.lookup.near+Can be optionally used as a negative permission to prevent lookups via the near command.
 CoreProtect+coreprotect.lookup.session+Can be optionally used as a negative permission to prevent session lookups.
 CoreProtect+coreprotect.lookup.username+Can be optionally used as a negative permission to prevent username change lookups.
+CoreProtect+coreprotect.co+Allows access to the CoreProtect "/co" command.+/co
+CoreProtect+coreprotect.core+Allows access to the CoreProtect "/core" command.+/core
+CoreProtect+coreprotect.coreprotect+Allows access to the CoreProtect "/coreprotect" command.+/coreprotect
 RandomTeleport+randomteleport.teleport+Teleports you to a randomly selected location.+/rt
 RandomTeleport+randomteleport.nocooldown+Allows a player to bypass the cooldown.
 RandomTeleport+randomteleport.sign.use+Allows you to use (click) the Random Teleport sign.
