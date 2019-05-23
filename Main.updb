@@ -2108,7 +2108,7 @@ Tablist+tablist.colorcodes+gives you the permission to use colorcodes.+/colorcod
 ChatItem+chatitem.use+allows your messages to be parsed by the plugin also {item}
 ChatItem+chatitem.reload+allows you to reload the config+/cireload
 ChatItem+chatiem.ignore.cooldown+allows you to bypass the message cooldown (if enabled) 
-CoreProtect+coreprotect.*+Allows access to all of the CoreProtect commands.+/co help,/co inspect,/co rollback,/co restore,/co lookup,/co purge,/co reload,/co version,/co near,/co undo
+CoreProtect+coreprotect.*+Allows access to all of the CoreProtect commands.+/co help,/co inspect,/co rollback,/co restore,/co lookup,/co purge,/co reload,/co version,/co near,/co undo,/co status
 CoreProtect+coreprotect.inspect+Allows access to the CoreProtect inspect command.+/co inspect
 CoreProtect+coreprotect.lookup+Allows access to the CoreProtect lookup command.+/co lookup
 CoreProtect+coreprotect.rollback+Allows access to the CoreProtect rollback command.+/co rollback
@@ -2116,14 +2116,19 @@ CoreProtect+coreprotect.restore+Allows access to the CoreProtect restore command
 CoreProtect+coreprotect.help+Allows access to the CoreProtect help command.+/co help
 CoreProtect+coreprotect.purge+Allows access to the CoreProtect purge command.+/co purge
 CoreProtect+coreprotect.reload+Allows access to the CoreProtect reload command.+/co reload
+CoreProtect+coreprotect.status+Allows access to the CoreProtect status command.+/co status
 CoreProtect+coreprotect.lookup.block+Can be optionally used as a negative permission to prevent block lookups.
 CoreProtect+coreprotect.lookup.chat+Can be optionally used as a negative permission to prevent chat lookups.
 CoreProtect+coreprotect.lookup.click+Can be optionally used as a negative permission to prevent interaction lookups.
 CoreProtect+coreprotect.lookup.command+Can be optionally used as a negative permission to prevent command lookups.
 CoreProtect+coreprotect.lookup.container+Can be optionally used as a negative permission to prevent container lookups.
 CoreProtect+coreprotect.lookup.kill+Can be optionally used as a negative permission to prevent entity kill lookups.
+CoreProtect+coreprotect.lookup.near+Can be optionally used as a negative permission to prevent lookups via the near command.
 CoreProtect+coreprotect.lookup.session+Can be optionally used as a negative permission to prevent session lookups.
 CoreProtect+coreprotect.lookup.username+Can be optionally used as a negative permission to prevent username change lookups.
+CoreProtect+coreprotect.co+Allows access to the CoreProtect "/co" command.+/co
+CoreProtect+coreprotect.core+Allows access to the CoreProtect "/core" command.+/core
+CoreProtect+coreprotect.coreprotect+Allows access to the CoreProtect "/coreprotect" command.+/coreprotect
 RandomTeleport+randomteleport.teleport+Teleports you to a randomly selected location.+/rt
 RandomTeleport+randomteleport.nocooldown+Allows a player to bypass the cooldown.
 RandomTeleport+randomteleport.sign.use+Allows you to use (click) the Random Teleport sign.
@@ -2493,10 +2498,9 @@ CMI+cmi.command.counter.force+Allows to force counter message on surrounding pla
 CMI+cmi.command.counter.time+Allows to change counter default time
 CMI+cmi.command.counter.range+Allows to change counter default range
 CMI+cmi.command.counter.msg+Allows to change counter default message
-CMI+cmi.command.ctext+Allows to see message from Custom Text folder
 CMI+cmi.command.cuff.bypass+Allows command usage while cuffed
 CMI+cmi.command.enchant.bypasslimit+Allows to bypass enchant limitations
-CMI+cmi.command.enchant.bypassinvalid+Allows to enchant items with enchants which usualy are not posible on items
+CMI+cmi.command.enchant.bypassinvalid+Allows to enchant items with enchants which usually are not posible on items
 CMI+cmi.command.ender.preventmodify+Prevents ender chest modification by some one else
 CMI+cmi.command.ender.preventmodify.bypass+bypasses prevent modify permission node
 CMI+cmi.command.editwarnings+allows to manage players or everyone's warnings
@@ -2508,6 +2512,7 @@ CMI+cmi.command.home.bypassprivate+Allows to teleport to private another player 
 CMI+cmi.command.ignore.bypass+Allows to perform commands on who ignores you
 CMI+cmi.command.info.deathlocation+Allows to see death location in info page
 CMI+cmi.command.info.ip+Allows to see players IP Address in info page
+CMI+cmi.command.info.others+Required for /cmi info <player>
 CMI+cmi.command.invcheck.edit+Allows to edit saved inventory
 CMI+cmi.command.inv.preventmodify+Prevent inventory modifications by others
 CMI+cmi.command.inv.preventmodify.bypass+bypasses prevent modify permission node
@@ -2516,7 +2521,6 @@ CMI+cmi.command.jail.bypasscmd+Allows command usage while jailed
 CMI+cmi.command.kick.bypass+Prevent player from being kicked from server
 CMI+cmi.command.lfix.admin+Allows to fix light in area bigger than you can see
 CMI+cmi.command.list.admin+Places player into admin group in list
-CMI+cmi.command.list.group.[groupnumber]+Assigns player to defined group
 CMI+cmi.command.list.hidden+Allows to see hidden players in player list
 CMI+cmi.command.list.staff+Places player into staff group in list
 CMI+cmi.command.maintenance.bypass+Allows to bypass maintenance mode
@@ -2524,7 +2528,7 @@ CMI+cmi.command.money.admin+Allows to manipulate player balance
 CMI+cmi.command.money.betweenworldgroups+Allows money transfer between worlds
 CMI+cmi.command.more.oversize+Allows to get oversized stacks
 CMI+cmi.command.msg.clean+Allows to send clean messages to player by using ! at beginning
-CMI+cmi.command.msg.noreply+allows useage of /CMI+CMI+cmi.. msg [playerName] !+Text!
+CMI+cmi.command.msg.noreply+allows usage of /cmi msg [playerName] !-Text!
 CMI+cmi.command.msg.vanish+Allows to send private messages to vanished players
 CMI+cmi.command.msg.togglebypass+Allows to send private messages even if player has private messages toggled off
 CMI+cmi.command.mute.bypass+Bypass personal public chat mute
@@ -2533,7 +2537,7 @@ CMI+cmi.command.nick.bypassblacklist+Allows to bypass nick name black list
 CMI+cmi.command.nick.bypass.length+Allows to bypass nick name length limitations
 CMI+cmi.command.nick.bypassinuse+Allows to bypass limitation in using already existing name
 CMI+cmi.command.nick.different+Allows to set nick name to different one than original
-CMI+cmi.command.note.remove+alows to clear or remove notes
+CMI+cmi.command.note.remove+allows to clear or remove notes
 CMI+cmi.command.note.add+allows to add notes
 CMI+cmi.command.patrol.bypass+Player with permission will not be included into patrol list
 CMI+cmi.command.repair.repairshare.bypass+Allows to bypass repair share being applied on item
@@ -2541,12 +2545,12 @@ CMI+cmi.command.replaceblock.speed+Allows to adjust replaceblock speed
 CMI+cmi.command.removewarp.bypass+Allows to remove warps belonging to another user
 CMI+cmi.command.scan.speed+Allows to adjust scan speed
 CMI+cmi.command.sendall.bypass+Prevents player from being sent to target server
-CMI+cmi.command.sethome.bypass+setting home location where players doens't have build permissions
+CMI+cmi.command.sethome.bypass+setting home location where players doesn't have build permissions
 CMI+cmi.command.sethome.unlimited+Allows to have unlimited amount of homes
 CMI+cmi.command.sethome.overwrite+Allows to overwrite existing home Location
 CMI+cmi.command.sethome.unlimited+Allows to have unlimited amount of homes
 CMI+cmi.command.signspy.hide+To be excluded from sign spies
-CMI+cmi.command.silent+Allows to use +s variable in commands to avoid sending feedback messages to target player
+CMI+cmi.command.silent+Allows to use -s variable in commands to avoid sending feedback messages to target player
 CMI+cmi.command.sit.stairs+Allows to sit on stairs automatically
 CMI+cmi.command.silence.bypass+Prevents player from being silenced
 CMI+cmi.command.spawner.shiftclick+Allows to use spawner set GUI on shift clicking it
@@ -2554,21 +2558,20 @@ CMI+cmi.command.sudo.bypass+Prevents others from using sudo on players with this
 CMI+cmi.command.setwarp.unlimited+Allows to set unlimited amount of warps
 CMI+cmi.command.tempban.bypass+Prevents player from being tempbanned
 CMI+cmi.command.tempban.max.unlimited+Allows to temp ban for more than config allows
-CMI+cmi.command.tempban.max.[anypositivenumber]+Allows to temp ban for defined max time
 CMI+cmi.command.tfly.give+Allows to give tfly for someone else
-CMI+cmi.command.tfly.maxtime.[amount]+set max allowed time player can give tfly for another player. In case player has more than this limit, tfly will not changed.
 CMI+cmi.command.tgod.give+Allows to give tgod for someone else
 CMI+cmi.command.time.edit+Allows to manipulate time
-CMI+cmi.command.toggleshiftedit+For Using /CMI+CMI+cmi.. toggleshiftedit
+CMI+cmi.command.toggleshiftedit+For Using /cmi toggleshiftedit
 CMI+cmi.command.tpa.warmupbypass+Allows to bypass tpa command warmup
 CMI+cmi.command.tpahere.warmupbypass+Allows to bypass tpahere command warmup
 CMI+cmi.command.tptoggle.bypass+Allows teleportation to players with disabled teleportations
 CMI+cmi.command.warn.bypass+allows to be excluded from being warned.
 CMI+cmi.command.warnings+print out list of players warnings and when they expire
 CMI+cmi.command.warp.redefine+Required to redefine existing warp point. Useful if you are letting regular players to create warp points
+CMI+cmi.command.whowas+Shows <player>'s previous names.
 CMI+cmi.actionbar.colors+Allows to use colors in actionbarmsg command
 CMI+cmi.anvil.colors+Allows to use colors when renaming item
-CMI+cmi.anvil.itemrename.bypass+Allows to rename items with black listed names
+CMI+cmi.anvil.itemrename.bypass+Allows to rename items with blacklisted names
 CMI+cmi.anvil.nolimits+Allows repair items without level limitations
 CMI+cmi.armorstand.arms+allows to spawn armorstands with arms
 CMI+cmi.armorstand.offhand+allows to fully manipulate armorstand off hand item
@@ -2614,7 +2617,6 @@ CMI+cmi.openshulker+Allows to use shulkerbox as backpack
 CMI+cmi.openshulker.shift+Allows to use shulkerbox as backpack with shift right click
 CMI+cmi.permisiononerror+Allows to see missing permission on error message. Note the spelling.
 CMI+cmi.placespawner+Allows to place spawner and keep its type
-CMI+cmi.placespawner.[entitytype]+Allows to place spawner by particular type and keep its type
 CMI+cmi.prewards.notification+Shows playtime rewards notification for unclaim rewards
 CMI+cmi.safeteleport+Prevents teleportation to unsafe locations
 CMI+cmi.scheduler.exclude+Excludes player from scheduler random player list
