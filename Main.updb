@@ -4291,3 +4291,7 @@ ChestProtect+chestprotect.command.untrust+Gives access to the untrust player com
 ChestProtect+chestprotect.command.menu+Gives access to the menu player command which opens the GUI main menu.+/protect menu
 ChestProtect+chestprotect.command.admin+Gives access to the admin player command.+/protect admin
 ChestProtect+chestprotect.command.reload+Gives access to the reload player command.+/protect reload
+InsaneShops+insaneshops.create+Allows the player to create a Shop Recommended
+InsaneShops+insaneshops.limit.XXX.+Limits the number of Shops a player can own
+InsaneShops+insaneshops.commands.shops+Allows the usage of /shops+/shops
+InsaneShops+insaneshops.admin+Allows opening Shops as a seller (to manage them)
