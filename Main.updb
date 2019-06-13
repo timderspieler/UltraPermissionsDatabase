@@ -4278,19 +4278,23 @@ Realistic_World+rwg.cmd.timings+Access to the RWG timings of all operations.+/rw
 Realistic_World+rwg.cmd.biome+Get the RWGBiome from the place where you are.+/rwg biome
 Realistic_World+rwg.cmd.biome.find+Search for a RWBiome's location.+/rwg biome find [<RWGBiome>]
 Realistic_World+rwg.cmd.biome.teleport+Teleport to a spefic RWGBiome.+/rwg biome tp [<RWGBiome>]
-ChestProtect+chestprotect.bypass+Makes the player bypass all protections.
-ChestProtect+chestprotect.gui.protection.teleport+Allows the teleportation to the protection through the GUI.
-ChestProtect+chestprotect.bypass.edit+Allows to edit the protections of other players.
-ChestProtect+chestprotect.bypass.interact+Allows the interaction with protectoins of other players.
-ChestProtect+chestprotect.admin.player+Gives access to the admin player command.+/protect admin
-ChestProtect+chestprotect.admin.player.delete+Allows the deletion of player data.
-ChestProtect+chestprotect.command.lock+Gives access to the lock player command.+/protect lock
-ChestProtect+chestprotect.command.unlock+Gives access to the unlock player command.+/protect unlock
-ChestProtect+chestprotect.command.trust+Gives access to the trust player command.+/protect trust
-ChestProtect+chestprotect.command.untrust+Gives access to the untrust player command.+/protect untrust
-ChestProtect+chestprotect.command.menu+Gives access to the menu player command which opens the GUI main menu.+/protect menu
-ChestProtect+chestprotect.command.admin+Gives access to the admin player command.+/protect admin
-ChestProtect+chestprotect.command.reload+Gives access to the reload player command.+/protect reload
+ChestProtect+chestprotect.command.lock+Ability to use the lock command (enables lock mode)+/protect lock
+ChestProtect+chestprotect.command.unlock+Ability to use the unlock command (enables unlock mode)+/protect unlock
+ChestProtect+chestprotect.command.trust+Ability to use the trust command (enables trust mode)+/protect trust
+ChestProtect+chestprotect.command.untrust+Ability to use the untrust command (enables untrust mode)+/protect untrust
+ChestProtect+chestprotect.command.menu+Ability to use the menu command (opens main GUI)+/protect menu
+ChestProtect+chestprotect.command.admin+Ability to use admin commands+/protect admin <command>
+ChestProtect+chestprotect.command.reload+Ability to reload the plugin+/protect reload
+ChestProtect+chestprotect.protections.<Number>+Defines max protections for a player
+ChestProtect+chestprotect.members.<Number>+Defines max protection members for a player
+ChestProtect+chestprotect.bypass+Ability to bypass protections
+ChestProtect+chestprotect.gui.protection.teleport+Ability to teleport to protections with the GUI
+ChestProtect+chestprotect.bypass.edit+Ability to edit protections of others
+ChestProtect+chestprotect.bypass.interact+Ability to interact with protections of others
+ChestProtect+chestprotect.admin.player+Ability to use the admin player command
+ChestProtect+chestprotect.admin.player.delete+Ability to delete player data
+ChestProtect+chestprotect.player.setting.<Setting>+Ability to edit own player settings (setting name can be found in GUI)
+ChestProtect+chestprotect.protection.setting.<Setting>+Defines a setting for a player (setting name can be found in GUI)
 InsaneShops+insaneshops.create+Allows the player to create a Shop Recommended
 InsaneShops+insaneshops.limit.XXX.+Limits the number of Shops a player can own
 InsaneShops+insaneshops.commands.shops+Allows the usage of /shops+/shops
