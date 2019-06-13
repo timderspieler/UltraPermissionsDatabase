@@ -4295,3 +4295,10 @@ InsaneShops+insaneshops.create+Allows the player to create a Shop Recommended
 InsaneShops+insaneshops.limit.XXX.+Limits the number of Shops a player can own
 InsaneShops+insaneshops.commands.shops+Allows the usage of /shops+/shops
 InsaneShops+insaneshops.admin+Allows opening Shops as a seller (to manage them)
+AdvancedReplay+replay.command.start+Permission for the start command (Starts recording a new Replay)+/replay start <Name> [<Players ...>]
+AdvancedReplay+replay.command.stop+Permission for the stop command (Stops and saves a Replay)+/replay stop <Name>
+AdvancedReplay+replay.command.play+Permission for the play command (Starts a recorded Replay)+/replay play <Name>
+AdvancedReplay+replay.command.leave+Permission for the leave command (Leave your Replay)+/replay leave
+AdvancedReplay+replay.command.delete+Permission for the delete command (Deletes an existing Replay)+/replay delete <Name>
+AdvancedReplay+replay.command.list+Permission for the list command (Lists all available Replays)+/replay list [Page]
+AdvancedReplay+replay.command.reload+Permission for the reload command (Reloads the configuration)+/replay reload
