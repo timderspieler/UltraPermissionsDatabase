@@ -4295,10 +4295,10 @@ InsaneShops+insaneshops.create+Allows the player to create a Shop Recommended
 InsaneShops+insaneshops.limit.XXX.+Limits the number of Shops a player can own
 InsaneShops+insaneshops.commands.shops+Allows the usage of /shops+/shops
 InsaneShops+insaneshops.admin+Allows opening Shops as a seller (to manage them)
-AdvancedReplay+replay.command.start+Permission for the start command (Starts recording a new Replay)+/replay start <Name> [<Players ...>]
-AdvancedReplay+replay.command.stop+Permission for the stop command (Stops and saves a Replay)+/replay stop <Name>
-AdvancedReplay+replay.command.play+Permission for the play command (Starts a recorded Replay)+/replay play <Name>
-AdvancedReplay+replay.command.leave+Permission for the leave command (Leave your Replay)+/replay leave
-AdvancedReplay+replay.command.delete+Permission for the delete command (Deletes an existing Replay)+/replay delete <Name>
-AdvancedReplay+replay.command.list+Permission for the list command (Lists all available Replays)+/replay list [Page]
-AdvancedReplay+replay.command.reload+Permission for the reload command (Reloads the configuration)+/replay reload
+AdvancedReplay+replay.command.start+Ability to use the start command (starts recording a new AdvancedReplay+replay.+/AdvancedReplay+replay.start <Name> [<Players ...>]
+AdvancedReplay+replay.command.stop+Ability to use the stop command (stops and saves a AdvancedReplay+replay.+/AdvancedReplay+replay.stop <Name>
+AdvancedReplay+replay.command.play+Ability to use the play command (starts a recorded AdvancedReplay+replay.+/AdvancedReplay+replay.play <Name>
+AdvancedReplay+replay.command.leave+Ability to use the leave command (leaves the current AdvancedReplay+replay.+/AdvancedReplay+replay.leave
+AdvancedReplay+replay.command.delete+Ability to use the delete command (deletes an existing AdvancedReplay+replay.+/AdvancedReplay+replay.delete <Name>
+AdvancedReplay+replay.command.list+Ability to use the list command (lists all available AdvancedReplay+replay.)+/AdvancedReplay+replay.list [Page]
+AdvancedReplay+replay.command.reload+Ability to use the reload command (reloads the plugin configuration)+/AdvancedReplay+replay.reload
