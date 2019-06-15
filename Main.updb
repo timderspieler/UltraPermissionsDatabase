@@ -4766,3 +4766,6 @@ AdvancedReplay+replay.command.list+Ability to use the list command (lists all av
 AdvancedReplay+replay.command.reload+Ability to use the reload command (reloads the plugin configuration)+/replay reload
 ChestSort+chestsort.use+Defines if automatic chest sorting is enabled and grants the ability to use the chestsort command+/chestsort, /sort
 ChestSort+chestsort.use.inventory+Ability to use the invsort command+/invsort, /isort, /invsort hotbar, /isort hotbar, /invsort all, /isort all
+ServerRestorer+serverrestorer.*+Grants all permissions from the plugin
+ServerRestorer+serverrestorer.save+Ability to use the save command (saves the server)+/sr save
+ServerRestorer+serverrestorer.restore+Ability to use the restore command (restores the server)+/sr restore
