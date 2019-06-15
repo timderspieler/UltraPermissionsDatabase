@@ -4196,7 +4196,7 @@ uSkyBlock+usb.donor.25+Adds 5% bonus currency bonus when completing a challenge
 uSkyBlock+usb.donor.50+Adds 5% bonus currency bonus when completing a challenge
 uSkyBlock+usb.donor.75+Adds 10% bonus currency bonus when completing a challenge
 uSkyBlock+usb.donor.100+Adds 20% bonus currency bonus when completing a challenge
-ProtocolLib+protocol.admin+Logs hex representations of the provided packets to a file or to console.+/packetlog config,/packetlog check,/packetlog version,/packetlog timings,/packetlog listeners
+ProtocolLib+protocol.admin+Specifies if a hex representation of provided packets should be logged to a file or to console+/packetlog config,/packetlog check,/packetlog version,/packetlog timings,/packetlog listeners
 Ultimate_Name_Color+UNC.admin+Allow to Reload the plugin and reset players.+/name reload,/name reset
 Ultimate_Name_Color+name.*+Allow the player to change there Name in every color in Name.
 Ultimate_Name_Color+chat.*+Allow the player to change there Name in every color in Chat.
