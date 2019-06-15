@@ -2503,7 +2503,7 @@ CMI+cmi.command+Gives access to base usage of commands
 CMI+cmi.command.[commandname].cooldownbypass+Allows to bypass command cooldown
 CMI+cmi.command.[commandname].others+Allows to perform command on another player
 CMI+cmi.command.[commandname].others.[extra]+Allows to perform command on another player
-CMI+cmi.command.[commandname].warmupbypass+Allows to bypass particular CMI+cmi.command warmup
+CMI+cmi.command.[commandname].warmupbypass+Allows to bypass particular CMI command warmup
 CMI+cmi.command.actionbarmsg+Sends action bar message to player+/actionbarmsg
 CMI+cmi.command.afk+Toggle afk mode. Reason could be provided+/afk
 CMI+cmi.command.afk.auto+Places player into afk mode autoamticaly
@@ -2662,7 +2662,7 @@ CMI+cmi.command.head+Get players head+/head
 CMI+cmi.command.head.othersource+Allows to get head of another player
 CMI+cmi.command.heal+Heal player+/heal
 CMI+cmi.command.heal.others+Heal player
-CMI+cmi.command.helpop+Sends a message to players with CMI+cmi.command.helpop.inform+/helpop
+CMI+cmi.command.helpop+Sends a message to players with cmi.command.helpop.inform+/helpop
 CMI+cmi.command.helpop.inform+Ability to see messages send through /helpop
 CMI+cmi.command.hideflags+Hides item flags+/hideflags
 CMI+cmi.command.hideflags.others+Hides item flags
@@ -2719,7 +2719,7 @@ CMI+cmi.command.jail.bypasscmd+Allows command usage while jailed
 CMI+cmi.command.jail.maxtime.[seconds]+Defines max amount of time player can jail someone
 CMI+cmi.command.jailedit+Edits Jail+/jailedit
 CMI+cmi.command.jaillist+Lists all jails+/jaillist
-CMI+cmi.command.jump+Jumps to target block (requires CMI+cmi.command.jump.[[distance]] to work)+/jump
+CMI+cmi.command.jump+Jumps to target block (requires cmi.command.jump.[[distance]] to work)+/jump
 CMI+cmi.command.jump.[[distance]]+Sets the max number of blocks a player can jump
 CMI+cmi.command.kick+Kicks a specified user+/kick
 CMI+cmi.command.kick.bypass+Prevent player from being kicked from server
@@ -4757,12 +4757,12 @@ InsaneShops+insaneshops.create+Allows the player to create a Shop Recommended
 InsaneShops+insaneshops.limit.XXX.+Limits the number of Shops a player can own
 InsaneShops+insaneshops.commands.shops+Allows the usage of /shops+/shops
 InsaneShops+insaneshops.admin+Allows opening Shops as a seller (to manage them)
-AdvancedReplay+replay.command.start+Ability to use the start command (starts recording a new AdvancedReplay+replay.+/AdvancedReplay+replay.start <Name> [<Players ...>]
-AdvancedReplay+replay.command.stop+Ability to use the stop command (stops and saves a AdvancedReplay+replay.+/AdvancedReplay+replay.stop <Name>
-AdvancedReplay+replay.command.play+Ability to use the play command (starts a recorded AdvancedReplay+replay.+/AdvancedReplay+replay.play <Name>
-AdvancedReplay+replay.command.leave+Ability to use the leave command (leaves the current AdvancedReplay+replay.+/AdvancedReplay+replay.leave
-AdvancedReplay+replay.command.delete+Ability to use the delete command (deletes an existing AdvancedReplay+replay.+/AdvancedReplay+replay.delete <Name>
-AdvancedReplay+replay.command.list+Ability to use the list command (lists all available AdvancedReplay+replay.)+/AdvancedReplay+replay.list [Page]
-AdvancedReplay+replay.command.reload+Ability to use the reload command (reloads the plugin configuration)+/AdvancedReplay+replay.reload
-ChestSort+chestsort.use+Defines if automatic chest sorting is enabled and grants the ability to use the ChestSort+chestsort.command+/ChestSort+chestsort.or /sort
+AdvancedReplay+replay.command.start+Ability to use the start command (starts recording a new replay)+/replay start <Name> [<Players ...>]
+AdvancedReplay+replay.command.stop+Ability to use the stop command (stops and saves a replay)+/replay stop <Name>
+AdvancedReplay+replay.command.play+Ability to use the play command (starts a recorded replay)+/replay play <Name>
+AdvancedReplay+replay.command.leave+Ability to use the leave command (leaves the current replay)+/replay leave
+AdvancedReplay+replay.command.delete+Ability to use the delete command (deletes an existing replay)+/replay delete <Name>
+AdvancedReplay+replay.command.list+Ability to use the list command (lists all available replays)+/replay list [Page]
+AdvancedReplay+replay.command.reload+Ability to use the reload command (reloads the plugin configuration)+/replay reload
+ChestSort+chestsort.use+Defines if automatic chest sorting is enabled and grants the ability to use the chestsort command+/chestsort, /sort
 ChestSort+chestsort.use.inventory+Ability to use the invsort command+/invsort, /isort, /invsort hotbar, /isort hotbar, /invsort all, /isort all
