@@ -3097,8 +3097,8 @@ CMI+cmi.worldlimit.fly.aboveroof+Allows to fly over world build limit. Feature s
 CMI+cmi.worldlimit.fly.bypass+Allows to bypass fly mode limitations by worlds
 CMI+cmi.worldlimit.gamemode.bypass+Allows to bypass game mode limitations by worlds
 CMI+cmi.worldlimit.god.bypass+Allows to bypass god mode limitations by worlds
-Vault+vault.admin+allows access to vault info and conversion commands.+/vault-convert,/vault-info,/vault:vault-convert,/vault:vault-info
-Vault+vault.update+Anyone with this permission will be notified when Vault is out-dated.
+Vault+vault.admin+Ability to use the info and conversion commands+/vault-info,/vault-convert
+Vault+vault.update+Specifies the users that are notified when there is a new plugin version
 CreditCard+creditcard.use.basic+Includes Basic Permissions to creditcard+/creditcard loan,/creditcard owe,/creditcard pay ,/creditcard forget,/creditcard createUser,/creditcard auto
 CreditCard+creditcard.use.gui+Permission to use the GUI inventory to take loans and others+/CreditCard gui
 CreditCard+creditcard.use.forgot+Permission to retrive your pin number+/CreditCard forgot
