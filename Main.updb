@@ -3408,10 +3408,17 @@ RunAsConsole+rac.use+Allow Use Of The /console command+/console
 RunAsConsole+rac.info+Allow Use Of The /runasconsole command+/runasconsole
 MCGMineStore+minestore.connectweb+Allows to connect the webend to the plugin+/donate createweb
 MCGMineStore+minestore.admin+Allows access to admin panel (/donate admin manage)+/donate admin manage
-PlaceholderAPI+placeholderapi.admin+Ability to use admin commands+/papi,/papi list,/papi info,/papi parse,/papi bcparse,/papi parserel,/papi register,/papi unregister,/papi reload,/papi disablecloud,/papi ecloud
+PlaceholderAPI+placeholderapi.*+Grants all permissions from the plugin
+PlaceholderAPI+placeholderapi.admin+Ability to use admin commands+/papi parse,/papi bcparse,/papi parserel,/papi register,/papi unregister,/papi reload,/papi disablecloud,/papi ecloud
+PlaceholderAPI+placeholderapi.ecloud+Ability to use ecloud commands+/papi ecloud,/papi ecloud status,/papi ecloud list,/papi ecloud info,/papi ecloud download
 PlaceholderAPI+placeholderapi.injector.chat.bypass+Ability to use placeholders in chat messages
 PlaceholderAPI+placeholderapi.injector.signs.bypass+Ability to use placeholders in signs
 PlaceholderAPI+placeholderapi.injector.anvil.bypass+Ability to use placeholders in anvils
+PlaceholderAPI+placeholderapi.list+Ability to use the list command (lists all placeholder expansions that are currently active)+/papi list
+PlaceholderAPI+placeholderapi.parse+Ability to use the parse command (parses a string with placeholders)+/papi parse
+PlaceholderAPI+placeholderapi.register+Ability to use the register and unregister command (registers or unregisters placeholder expansions)+/papi register,/papi unregister
+PlaceholderAPI+placeholderapi.reload+Ability to use the reload command (reloads the plugin config)+/papi reload
+PlaceholderAPI+placeholderapi.updatenotify+Specifies the users that are notified when there is a new plugin version
 SkillsPro+skills.select+Opens skill selection GUI.+/skill select
 SkillsPro+skills.improve+Opens skill improvement GUI.+/skill improve
 SkillsPro+skills.select.*+Allows access to all skills in /skill select GUI skills.select.[skillname] for a specific skill only.
