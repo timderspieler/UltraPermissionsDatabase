@@ -1330,36 +1330,36 @@ ChatControl+chatcontrol.chat.format.underline+Permission to use '&n' character t
 ChatControl+chatcontrol.chat.global+Permission to speak in global chat when chat range is enabled and message starts with '!'.
 ChatControl+chatcontrol.chat.overrideranged+Permission speak for all players in the entire world when ranged mode is enabled.
 ChatControl+chatcontrol.chat.spy+Permission to receive everyone's messages when ranged mode is enabled.
-ChatControl+chatcontrol.commands.addrule+Ability to create new rules with command.+/chc addrule
-ChatControl+chatcontrol.commands.adminchat+Writing to admin chat using "/chc ach" command.+/chc ach
-ChatControl+chatcontrol.commands.announce+Announce messages with "/chc announce" command+/chc announce
-ChatControl+chatcontrol.commands.calc+Use inbuilt calculator with "/chc calc" command.+/chc calc
-ChatControl+chatcontrol.commands.channels+Basic permission required for "/channel" command.+/channel
-ChatControl+chatcontrol.commands.channels.help+List all commands regarding channels with "/channel help" command.+/channel help
-ChatControl+chatcontrol.commands.channels.join+Join a channel with "/channel join" command.+/channel join
-ChatControl+chatcontrol.commands.channels.leave+Leave a channel with "/channel leave" command.+/channel leave
-ChatControl+chatcontrol.commands.channels.list+List all channels with "/channel list" command.+/channel list
-ChatControl+chatcontrol.commands.channels.players+View all players in a channel with "/channel players" command.+/channel players
-ChatControl+chatcontrol.commands.channels.send+Send messages to a channel with "/channel send" command.+/channel send
-ChatControl+chatcontrol.commands.channels.set+Enforce a new channel to a player one with "/channel set" command.+/channel set
-ChatControl+chatcontrol.commands.channels.spy+See all messages in a channel with "/channel spy" command.+/channel spy
-ChatControl+chatcontrol.commands.clear+Clearing game chat with "/chc clear" command.+/chc clear
-ChatControl+chatcontrol.commands.fake+Broadcasting fake join/kick/leave messages with "/chc fake" command.+/chc fake
-ChatControl+chatcontrol.commands.globalchat+Sending messages over bungee with "/chc global" command. Players still need chatcontrol.notify.globalchat permission to see the messages (which is given by default).+/chc global
-ChatControl+chatcontrol.commands.ignore+Ability to let players to decide to (not) receive certain messages caught by rules.+/chc ignore
-ChatControl+chatcontrol.commands.import+Importing rules from a file using "/chc import" command.+/chc import
-ChatControl+chatcontrol.commands.inspect+Analyse methods or fields in a class with "/chc inspect" command.+/chc inspect
-ChatControl+chatcontrol.commands.list+Displaying help for the plugin with "/chc list" command.+/chc list
-ChatControl+chatcontrol.commands.mute+Mute game chat with "/chc mute" command.+/chc mute
-ChatControl+chatcontrol.commands.mute.anonymous+Mute without broadcasting player who muted the chat with "/chc mute -anonymous" command.+/chc mute -anonymous
-ChatControl+chatcontrol.commands.mute.silent+Mute without broadcasting any message with "/chc mute -silent" command.+/chc mute -silent
-ChatControl+chatcontrol.commands.points+View player's warning points with "/chc points" command.+/chc points
-ChatControl+chatcontrol.commands.reload+Reloading the configuration with "/chc reload" command.+/chc reload
-ChatControl+chatcontrol.commands.reply+Reply to last received private message with "/reply" command.+/reply
-ChatControl+chatcontrol.commands.reply.console+Reply to last received private message that was received from the server console.
-ChatControl+chatcontrol.commands.spy+View commands executed by other players with "/spy" command.+/spy
-ChatControl+chatcontrol.commands.tell+Issue a private message with "/tell" command.+/tell
-ChatControl+chatcontrol.commands.tell.console+Issue a private message to the server console.
+ChatControl+chatcontrol.command.addrule+Ability to create new rules with command.+/chc addrule
+ChatControl+chatcontrol.command.adminchat+Writing to admin chat using "/chc ach" command.+/chc ach
+ChatControl+chatcontrol.command.announce+Announce messages with "/chc announce" command+/chc announce
+ChatControl+chatcontrol.command.calc+Use inbuilt calculator with "/chc calc" command.+/chc calc
+ChatControl+chatcontrol.command.channels+Basic permission required for "/channel" command.+/channel
+ChatControl+chatcontrol.command.channels.help+List all commands regarding channels with "/channel help" command.+/channel help
+ChatControl+chatcontrol.command.channels.join+Join a channel with "/channel join" command.+/channel join
+ChatControl+chatcontrol.command.channels.leave+Leave a channel with "/channel leave" command.+/channel leave
+ChatControl+chatcontrol.command.channels.list+List all channels with "/channel list" command.+/channel list
+ChatControl+chatcontrol.command.channels.players+View all players in a channel with "/channel players" command.+/channel players
+ChatControl+chatcontrol.command.channels.send+Send messages to a channel with "/channel send" command.+/channel send
+ChatControl+chatcontrol.command.channels.set+Enforce a new channel to a player one with "/channel set" command.+/channel set
+ChatControl+chatcontrol.command.channels.spy+See all messages in a channel with "/channel spy" command.+/channel spy
+ChatControl+chatcontrol.command.clear+Clearing game chat with "/chc clear" command.+/chc clear
+ChatControl+chatcontrol.command.fake+Broadcasting fake join/kick/leave messages with "/chc fake" command.+/chc fake
+ChatControl+chatcontrol.command.globalchat+Sending messages over bungee with "/chc global" command. Players still need chatcontrol.notify.globalchat permission to see the messages (which is given by default).+/chc global
+ChatControl+chatcontrol.command.ignore+Ability to let players to decide to (not) receive certain messages caught by rules.+/chc ignore
+ChatControl+chatcontrol.command.import+Importing rules from a file using "/chc import" command.+/chc import
+ChatControl+chatcontrol.command.inspect+Analyse methods or fields in a class with "/chc inspect" command.+/chc inspect
+ChatControl+chatcontrol.command.list+Displaying help for the plugin with "/chc list" command.+/chc list
+ChatControl+chatcontrol.command.mute+Mute game chat with "/chc mute" command.+/chc mute
+ChatControl+chatcontrol.command.mute.anonymous+Mute without broadcasting player who muted the chat with "/chc mute -anonymous" command.+/chc mute -anonymous
+ChatControl+chatcontrol.command.mute.silent+Mute without broadcasting any message with "/chc mute -silent" command.+/chc mute -silent
+ChatControl+chatcontrol.command.points+View player's warning points with "/chc points" command.+/chc points
+ChatControl+chatcontrol.command.reload+Reloading the configuration with "/chc reload" command.+/chc reload
+ChatControl+chatcontrol.command.reply+Reply to last received private message with "/reply" command.+/reply
+ChatControl+chatcontrol.command.reply.console+Reply to last received private message that was received from the server console.
+ChatControl+chatcontrol.command.spy+View commands executed by other players with "/spy" command.+/spy
+ChatControl+chatcontrol.command.tell+Issue a private message with "/tell" command.+/tell
+ChatControl+chatcontrol.command.tell.console+Issue a private message to the server console.
 ChatControl+chatcontrol.messages.death+This permissions control if the player can view those type of messages. Given to everyone by default. Give negative permissions (e.g. "-chatcontrol.messages.join") to hide a type of message for a player.
 ChatControl+chatcontrol.messages.join+This permissions control if the player can view those type of messages. Given to everyone by default. Give negative permissions (e.g. "-chatcontrol.messages.join") to hide a type of message for a player.
 ChatControl+chatcontrol.messages.kick+This permissions control if the player can view those type of messages. Given to everyone by default. Give negative permissions (e.g. "-chatcontrol.messages.join") to hide a type of message for a player.
