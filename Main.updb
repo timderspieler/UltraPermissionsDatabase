@@ -1437,6 +1437,9 @@ ClearLag+lagg.tpchunk+Allows players to Teleport to chunks.+/lagg tpchunk <x> <z
 ClearLag+lagg.tps+Allows players to view current tps.+/lagg tps
 ClearLag+lagg.unloadchunks+Allows players to Unload un-needed chunks.+/lagg unloadchunks
 Coins+coins.admin+Give access to all admin commands.
+CommandDoesNotExist+cdne.list.list+Ability to use the list command (lists all currently blocked commands and words)+/cdne list
+CommandDoesNotExist+cdne.list.modify+Ability to use the add and remove command (adds and removes commands and words from the blocked list)+/cdne add,/cdne remove
+CommandDoesNotExist+cdne.[command]+Ability to bypass the command block
 Confiscate+confiscate.bypass.inventory+Permission to bypass inventory scan, e.g. when they log in or change world.
 Confiscate+confiscate.bypass.inventory+Permission to bypass inventory scan, e.g. when they log in or change world.
 Confiscate+confiscate.bypass.stacks+Permission to allow items stacked unnaturally (e.g. 64x minecarts).
