@@ -173,7 +173,6 @@ AdvancedBan+ab.ban.notify+To get notified.
 AdvancedBan+ab.ban.perma+To use the command.+/ban
 AdvancedBan+ab.ban.temp+To use the command.+/tempban
 AdvancedBan+ab.ban.undo+To use the command.+/unban
-AdvancedBan+ab.ban.undo+To use the command.+/unban
 AdvancedBan+ab.banlist+See all currently active punishments.+/banlist
 AdvancedBan+ab.check+Get player-status UUID/IP/Country/Ban-Status/Mute-Status/Warn-Count.+/check
 AdvancedBan+ab.help+Shows a list of all commands and a brief explanation .+/advancedban help
@@ -1437,12 +1436,10 @@ ClearLag+lagg.tpchunk+Allows players to Teleport to chunks.+/lagg tpchunk <x> <z
 ClearLag+lagg.tps+Allows players to view current tps.+/lagg tps
 ClearLag+lagg.unloadchunks+Allows players to Unload un-needed chunks.+/lagg unloadchunks
 Coins+coins.admin+Give access to all admin commands.
+CommandDoesNotExist+cdne.[command]+Ability to bypass the command block
 CommandDoesNotExist+cdne.list.list+Ability to use the list command (lists all currently blocked commands and words)+/cdne list
 CommandDoesNotExist+cdne.list.modify+Ability to use the add and remove command (adds and removes commands and words from the blocked list)+/cdne add,/cdne remove
-CommandDoesNotExist+cdne.[command]+Ability to bypass the command block
 Confiscate+confiscate.bypass.inventory+Permission to bypass inventory scan, e.g. when they log in or change world.
-Confiscate+confiscate.bypass.inventory+Permission to bypass inventory scan, e.g. when they log in or change world.
-Confiscate+confiscate.bypass.stacks+Permission to allow items stacked unnaturally (e.g. 64x minecarts).
 Confiscate+confiscate.bypass.stacks+Permission to allow items stacked unnaturally (e.g. 64x minecarts).
 Confiscate+confiscate.bypass.worldedit+Permission to bypass item limit for WorldEdit operations. Since some  operations work with thousands of items, we do not allow only certain items  to be bypassed because of the performance impact could freeze the server.
 Confiscate+confiscate.bypass.worldedit+Permission to bypass item limit for WorldEdit operations. Since some operations work with thousands of items, we do not allow only certain items to be bypassed because of the performance impact could freeze the server.
@@ -1471,18 +1468,11 @@ Confiscate+confiscate.commands.room.tp+Be teleported to the chest room.
 Confiscate+confiscate.commands.room.tp+Be teleported to the chest room.+/c room tp
 Confiscate+confiscate.commands.stats+View stored log statistics.
 Confiscate+confiscate.exempt.commandspy+Player will be ignored from command spy.
-Confiscate+confiscate.exempt.commandspy+Player will be ignored from command spy.
-Confiscate+confiscate.notify.commandspy+Permission to receive alerts when a command is executed.
 Confiscate+confiscate.notify.commandspy+Permission to receive alerts when a command is executed.
 Confiscate+confiscate.notify.confiscate+Permission to be notified when something is confiscated.
-Confiscate+confiscate.notify.confiscate+Permission to be notified when something is confiscated.
-Confiscate+confiscate.notify.updates+Permission to receive alerts on join when a new version is available.
 Confiscate+confiscate.notify.updates+Permission to receive alerts on join when a new version is available.
 Confiscate+confiscate.room.open+Permission to open chests in the chest room.
-Confiscate+confiscate.room.open+Permission to open chests in the chest room.
 Confiscate+confiscate.room.signs+Permission to view player logs by clicking on their sign in the chest room.
-Confiscate+confiscate.room.signs+Permission to view player logs by clicking on their sign in the chest room.
-Confiscate+confiscate.room.tool+Permission to use the room foundation tool.
 Confiscate+confiscate.room.tool+Permission to use the room foundation tool.
 CoreProtect+coreprotect.*+Allows access to all of the CoreProtect commands.+/co help,/co inspect,/co rollback,/co restore,/co lookup,/co purge,/co reload,/co version,/co near,/co undo,/co status
 CoreProtect+coreprotect.co+Allows access to the CoreProtect "/co" command.+/co
@@ -2635,7 +2625,6 @@ Lands+lands.chunks.85+Defines max chunk claim for player
 Lands+lands.chunks.9+Defines max chunk claim for player
 Lands+lands.chunks.90+Defines max chunk claim for player
 Lands+lands.chunks.95+Defines max chunk claim for player
-Lands+lands.command.menu+Open the Lands Menu+/lands menu
 Lands+lands.command.menu+Open the Lands Menu+/lands menu
 Lands+lands.free.chunks.1+Defines free claims before player needs to pay
 Lands+lands.free.chunks.10+Defines free claims before player needs to pay
@@ -3970,19 +3959,19 @@ SurvivalGames+sg.unblockcommands+Allows players to execute commands while in sg.
 SurvivalGames+sg.vote.2+Allows to vote for 2 maps.
 SurvivalGames+sg.vote.3+Allows to vote for 3 maps.
 SurvivalGames+sg.worldmanager+Allow the player to world manage the maps of SurvivalGames.+/sg WorldManager
-TAB+tab.reload+Ability to use the reload command (reloads the plugin configuration)+/tab reload
-TAB+tab.change.tabprefix+Ability to use the tabprefix command (sets a prefix in the tab list to a group or a player)+/tab tabprefix
-TAB+tab.change.tagprefix+Ability to use the tagprefix command (sets a prefix in the name tag to a group or a player)+/tab tagprefix
-TAB+tab.change.tabsuffix+Ability to use the tabsuffix command (sets a suffix in the tab list to a group or a player)+/tab tabsuffix
-TAB+tab.change.tagsuffix+Ability to use the tagsuffix command (sets a suffix in the name tag to a group or a player)+/tab tagsuffix
+TAB+tab.admin+Grants all permissions from the plugin
+TAB+tab.change+Ability to use all change commands+/tab tabprefix,/tab tagprefix,/tab tabsuffix,/tab tagsuffix,/tab abovename,/tab belowname,/tab customtagname,/tab customtabname
 TAB+tab.change.abovename+Ability to use the abovename command (sets a line above a name of a player)+/tab abovename
 TAB+tab.change.belowname+Ability to use the belowname command (sets a line below a name of a player)+/tab belowname
-TAB+tab.change.customtagname+Ability to use the customtagname command (sets the name of a group or a player in the name tag)+/tab customtagname
 TAB+tab.change.customtabname+Ability to use the customtabname command (sets the name of a group or a player in the tab list)+/tab customtabname
-TAB+tab.change+Ability to use all change commands+/tab tabprefix,/tab tagprefix,/tab tabsuffix,/tab tagsuffix,/tab abovename,/tab belowname,/tab customtagname,/tab customtabname
+TAB+tab.change.customtagname+Ability to use the customtagname command (sets the name of a group or a player in the name tag)+/tab customtagname
+TAB+tab.change.tabprefix+Ability to use the tabprefix command (sets a prefix in the tab list to a group or a player)+/tab tabprefix
+TAB+tab.change.tabsuffix+Ability to use the tabsuffix command (sets a suffix in the tab list to a group or a player)+/tab tabsuffix
+TAB+tab.change.tagprefix+Ability to use the tagprefix command (sets a prefix in the name tag to a group or a player)+/tab tagprefix
+TAB+tab.change.tagsuffix+Ability to use the tagsuffix command (sets a suffix in the name tag to a group or a player)+/tab tagsuffix
 TAB+tab.debug+Ability to use the debug command (shows internal information about a player)+/tab debug
+TAB+tab.reload+Ability to use the reload command (reloads the plugin configuration)+/tab reload
 TAB+tab.remove+Ability to use the remove command (removes all data from a requested group or a player)+/tab remove
-TAB+tab.admin+Grants all permissions from the plugin
 TCChallenge+tcchallenge.admin+Grants ability to right-click any tree heart log or pylon and access the GUIs AND makes the player a Member of every tree on the server
 TCChallenge+tcchallenge.admin.gui+Grants ability to use /tcchallenge command
 TCChallenge+tcchallenge.benchmark+Displays the Root Task benchmark in the actionbar
