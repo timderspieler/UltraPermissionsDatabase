@@ -2078,8 +2078,8 @@ Essentials+essentials.whois+Allow access to the /whois command.+/whois
 Essentials+essentials.workbench+Allow access to the /workbench command.+/workbench
 Essentials+essentials.world+Allow access to the /world command.+/world
 Essentials+essentials.worth+Allow access to the /worth command.+worth
-Factions+ factions.map+show the territory map, and set optional auto update+/f map
-Factions+ factions.mod+give or revoke moderator rights+/f mod
+Factions+factions.map+show the territory map, and set optional auto update+/f map
+Factions+factions.mod+give or revoke moderator rights+/f mod
 Factions+factions.*+This is just an alias for factions.kit.admin
 Factions+factions.admin+hand over your admin rights+/f admin
 Factions+factions.admin.any+give or revoke admin status for any player in any faction+/f admin
