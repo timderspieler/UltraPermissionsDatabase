@@ -2633,6 +2633,7 @@ Lands+lands.bypass.member.untrust+Ability to untrust players or remove invites i
 Lands+lands.bypass.place+Ability to bypass the block place protection
 Lands+lands.bypass.spawn.private+Ability to teleport to private spawns of lands
 Lands+lands.chunks.[number]+Specifies the max amount of chunks a player is able to claim per land
+Lands+lands.chunks.max.[number]+Specifies the max amount of chunks a player can get through playtime rewards
 Lands+lands.command.accept+Ability to use the accept command (accepts invites)+/lands accept
 Lands+lands.command.chat+Ability to use the chat command (chat with the land)+/lands chat
 Lands+lands.command.claim+Ability to use the claim command (claims chunks)+/lands claim
@@ -2661,8 +2662,11 @@ Lands+lands.gui.*+Ability to use the whole GUI
 Lands+lands.gui.chunk.*+Ability to use the whole chunk GUI
 Lands+lands.gui.teleport+Ability to teleport to claimed chunks
 Lands+lands.lands.[number]+Specifies the max amount of lands a player can be a member of
+Lands+lands.lands.max.[number]+Specifies the max amount of lands a player can be a member of through playtime rewards
 Lands+lands.members.[number]+Specifies the amount max amount of members per land
+Lands+lands.members.max.[number]+Specifies the max amount of members a player can have on their lands through playtime rewards
 Lands+lands.ownlands.[number]+Specifies the max amount of lands a player can own
+Lands+lands.ownlands.max.[number]+Specifies the max amount of lands a player can own through playtime rewards
 Lands+lands.role.*+Ability to modify all role settings of a land
 Lands+lands.role.admin.*+Ability to modify all role settings for admins of a land
 Lands+lands.role.admin.attack_animal+Ability to toggle the attack animal setting for admins of a land
