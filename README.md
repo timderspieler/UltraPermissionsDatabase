@@ -6,7 +6,7 @@ This is the huge Permission Database created by the Ultra Permissions community 
 
 ## This is not for support
 
-To get support join TechsCode's discord at http://ultrapermissions.com/discord
+To get support for Ultra Permissions join TechsCode's discord at http://ultrapermissions.com/discord
 
 ## Format
 
