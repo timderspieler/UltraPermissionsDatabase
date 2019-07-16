@@ -4,6 +4,10 @@ Ultra Permissions: https://www.spigotmc.org/resources/ultra-permissions.42678/
 
 This is the huge Permission Database created by the Ultra Permissions community that allows Ultra Permissions to suggest permissions based on installed plugins.
 
+## This is not for support
+
+To get support join TechsCode's discord at http://ultrapermissions.com/discord
+
 ## Format
 
 Every line represents a Permission.
