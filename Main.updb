@@ -2648,6 +2648,7 @@ Lands+lands.bypass.place+Ability to bypass the block place protection
 Lands+lands.bypass.spawn.private+Ability to teleport to private spawns of lands
 Lands+lands.chunks.[number]+Specifies the max amount of chunks a player is able to claim per land
 Lands+lands.chunks.max.[number]+Specifies the max amount of chunks a player can get through playtime rewards
+Lands+lands.chunks.support.[number]+Specifies the max amount of chunks a player can support a land with
 Lands+lands.command.accept+Ability to use the accept command (accepts invites)+/lands accept
 Lands+lands.command.chat+Ability to use the chat command (chat with the land)+/lands chat
 Lands+lands.command.claim+Ability to use the claim command (claims chunks)+/lands claim
