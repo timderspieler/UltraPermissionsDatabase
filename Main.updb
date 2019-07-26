@@ -720,7 +720,7 @@ CMI+cmi.command.alert+Alerts administration on players login+/alert [playername]
 CMI+cmi.command.alert.inform+Player will get notification on player join with alert
 CMI+cmi.command.aliaseditor+Alias editor+/aliaseditor
 CMI+cmi.command.armorstand+Open armor stand editor+/armorstand
-CMI+cmi.command.armorstand.[updateitems plate size visible arms gravity glow invulnerable name interactable head body leftarm rightarm leftleg rightleg pos]+Allows to access particular armor stand editor features
+CMI+cmi.command.armorstand.[feature]+Allows to access particular armor stand editor features
 CMI+cmi.command.armorstand.movebypass+Allows to move armor stand where you cant build. Can help to bypass AntiCheat plugin restrictions
 CMI+cmi.command.attachcommand+Attaches command(s) to item+/attachcommand
 CMI+cmi.command.attachcommand.cc+Allows to attach console command to item
