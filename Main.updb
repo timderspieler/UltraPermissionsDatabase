@@ -4134,7 +4134,7 @@ Ultimate_Name_Color+tab.purple+Allow to change there Tab name in purple.
 Ultimate_Name_Color+tab.red+Allow to change there Tab name in red.
 Ultimate_Name_Color+tab.white+Allow to change there Tab name in white.
 Ultimate_Name_Color+tab.yellow+Allow to change there Tab name in yellow.
-UltraCustomizer+ultracustomizer.admin+Gives users accsess to UlrtaCusomizer+/customizer
+UltraCustomizer+ultracustomizer.admin+Ability to access the main GUI of the plugin+/customizer
 UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban someone
 UltraPunishments+ultrapunishments.ban.revoke+Allows a player to unban someone
 UltraPunishments+ultrapunishments.manage.settings+Allows a player to view and edit settings
