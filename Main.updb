@@ -3057,6 +3057,11 @@ NexusWarps+nw.warp
 NexusWarps+nw.warplist
 NexusWarps+nw.warplist.gui
 NightVisionReloaded+nightvision.use+Allows User To Toggle Night Vision+/nv
+NamelessMC+namelessmc.command.getnotifications+Gets Notifications From Website+/Webite GetNotifications
+NamelessMC+namelessmc.command.register+Registers on Website+/Website Register
+NamelessMC+namelessmc.command.report+Reposts a player to the Website+/Website Report
+NamelessMC+namelessmc.command.setgroup+Gets user details from website+/Website GetUser
+NamelessMC+namelessmc.command.userinfo+Sets a players group in the Website+/Website SetGroup
 NoCheatPlus+nocheatplus.admin+Gives access to all NoCheatPlus commands including Auxiliary ones
 NoCheatPlus+nocheatplus.command.allowlogin+Can remove temporary kicked players with /ncp allowlogin+/ncp allowlogin
 NoCheatPlus+nocheatplus.command.ban+Can ban players with /ncp ban+/ncp ban
