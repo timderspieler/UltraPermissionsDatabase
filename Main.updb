@@ -2092,6 +2092,95 @@ Essentials+essentials.whois+Allow access to the /whois command.+/whois
 Essentials+essentials.workbench+Allow access to the /workbench command.+/workbench
 Essentials+essentials.world+Allow access to the /world command.+/world
 Essentials+essentials.worth+Allow access to the /worth command.+worth
+FabledSkyBlock+fabledskyblock.island.visit+Opens GUI to visit islands.+/island visit
+FabledSkyBlock+fabledskyblock.island.vote+Allows the user to vote or remove a vote.+/island vote
+FabledSkyBlock+fabledskyblock.island.controlpanel+Opens island control panel.+/island controlpanel
+FabledSkyBlock+fabledskyblock.island.upgrade+Opens a menu that allows you to upgrade.+/island upgrade
+FabledSkyBlock+fabledskyblock.island.leaderboard+Displays the top islands in the server.+/island leaderboard
+FabledSkyBlock+fabledskyblock.island.create+Permission to create an island.+/island create
+FabledSkyBlock+fabledskyblock.island.delete+Allows for users to remove their island.+/island delete
+FabledSkyBlock+fabledskyblock.island.teleport+Allows the user to teleport to islands.+/island teleport
+FabledSkyBlock+fabledskyblock.island.setspawn+Allows the user to set the island spawnpoint.+/island setspawn
+FabledSkyBlock+fabledskyblock.island.accept+Allows the user to accept island invites.+/island accept
+FabledSkyBlock+fabledskyblock.island.deny+Allows user to deny island invites.+/island deny
+FabledSkyBlock+fabledskyblock.island.cancel+Allows the player to cancel an invitation.+/island cancel
+FabledSkyBlock+fabledskyblock.island.leave+Allows user to leave an island.+/island leave
+FabledSkyBlock+fabledskyblock.island.promote+Allows a user to promote someone on their island.+/island promote
+FabledSkyBlock+fabledskyblock.island.demote+Allows a user to demote someone on their island.+/island demote
+FabledSkyBlock+fabledskyblock.island.kick+Allows the user to kick a specific person on their island.+/island kick
+FabledSkyBlock+fabledskyblock.island.expel+Allows a user to kick everyone on their island.+/island kickall
+FabledSkyBlock+fabledskyblock.island.ban+Allows the user to ban a specific person on their island.+/island ban
+FabledSkyBlock+fabledskyblock.island.bans+Allows the user to open the ban menu.+/island bans
+FabledSkyBlock+fabledskyblock.island.unban+Allows the user to unban a specific person.+/island unban
+FabledSkyBlock+fabledskyblock.island.border+Allows user to open island border menu.+/island border
+FabledSkyBlock+fabledskyblock.island.biome+Allows the user to specify their island biome.+/island biome
+FabledSkyBlock+fabledskyblock.island.weather+Allows user to change weather on island.+/island weather
+FabledSkyBlock+fabledskyblock.island.level+Allows the user to open their island level menu.+/island level
+FabledSkyBlock+fabledskyblock.island.value+Allows user to get value data of item in hand.+/island value
+FabledSkyBlock+fabledskyblock.island.settings+Allows the user to open the island settings menu.+/island settings
+FabledSkyBlock+fabledskyblock.island.information+Opens the island information panel.+/island information
+FabledSkyBlock+fabledskyblock.island.coop+Allows co-op with another player on their island.+/island coop
+FabledSkyBlock+fabledskyblock.island.members+Opens the menu to manage your island members.+/island members
+FabledSkyBlock+fabledskyblock.island.owner+Opens the ownership menu for your island.+/island owner
+FabledSkyBlock+fabledskyblock.island.confirm+Confirmation for certain alterations.+/island confirm
+FabledSkyBlock+fabledskyblock.island.invite+Allows the user to invite another player to their island.+/island invite
+FabledSkyBlock+fabledskyblock.island.chat+Communicate privately with other island members.+/island chat
+FabledSkyBlock+fabledskyblock.island.visitors+Opens the island menu for visitors.+/island visitors
+FabledSkyBlock+fabledskyblock.island.current+Displays current island you are on.+/island current
+FabledSkyBlock+fabledskyblock.island.public+Make your island public or private.+/island public
+FabledSkyBlock+fabledskyblock.island.open+Allows opening island.+/island open
+FabledSkyBlock+fabledskyblock.island.close+Allows closing island.+/island close
+FabledSkyBlock+fabledskyblock.island.bank+Opens the bank of your island.+/island bank
+FabledSkyBlock+fabledskyblock.island.unlock+Opens the unlock menu.+/island unlock
+FabledSkyBlock+fabledskyblock.island.help+Opens help menu.+/island
+FabledSkyBlock+fabledskyblock.bypass+Permission to access a closed island.
+FabledSkyBlock+fabledskyblock.bypass.cooldown+Permission to bypass biome, island creation or deletion cooldown time.
+FabledSkyBlock+fabledskyblock.bypass.ban+Prevents a player from being banned from islands.
+FabledSkyBlock+fabledskyblock.fly+Gives permission to fly at their island.
+FabledSkyBlock+fabledskyblock.fly.*+Gives permission to fly at any island.
+FabledSkyBlock+fabledskyblock.island.OriSky+Orisky.
+FabledSkyBlock+fabledskyblock.island.OriSky.structure+Orisky.
+FabledSkyBlock+fabledskyblock.top.exempt+Exempts user from appearing on top list.
+FabledSkyBlock+fabledskyblock.limit.block.*+Allows player to bypass all block limits.
+FabledSkyBlock+fabledskyblock.stackable+Allows players to create stacks from stackables if permission is required.
+FabledSkyBlock+fabledskyblock.island*+Grants access to every default island permission.
+FabledSkyBlock+fabledskyblock.admin.delete+Allows an admin to delete another player’s island.+/island admin delete
+FabledSkyBlock+fabledskyblock.admin.owner+Allows an admin to set ownership of another player's island.+/island admin owner
+FabledSkyBlock+fabledskyblock.admin.setspawn+Allows an admin to set the spawnpoint of the server.+/island admin setspawn
+FabledSkyBlock+fabledskyblock.admin.sethologram+Allows admins to set a hologram showing top islands.+/island admin sethologram
+FabledSkyBlock+fabledskyblock.admin.removehologram+Allows an admin to remove a hologram.+/island admin removehologram
+FabledSkyBlock+fabledskyblock.admin.create+Allows admin to create an island template using island creator.+/island admin create
+FabledSkyBlock+fabledskyblock.admin.setsize+Allows an admin to set the size of a player’s island.+/island admin setsize
+FabledSkyBlock+fabledskyblock.admin.addupgrade+Allows admin to add an upgrade to a player's island.+/island admin addupgrade
+FabledSkyBlock+fabledskyblock.admin.removeupgrade+Allows an admin to add an upgrade to a player’s island.+/island admin removeupgrade
+FabledSkyBlock+fabledskyblock.admin.level+Allows admin to open the level menu to alter values for levelling.+/island admin level
+FabledSkyBlock+fabledskyblock.admin.generator+ Allows an admin to open a menu to create new generators.+/island admin generator
+FabledSkyBlock+fabledskyblock.admin.upgrade+Allows admin to open a menu to change the upgrades a player can access.+/island admin upgrade
+FabledSkyBlock+fabledskyblock.admin.structure+Allows an admin to create structures for islands.+/island admin structure
+FabledSkyBlock+fabledskyblock.admin.structure+Gives admin the tool to create, and define structures.+/island admin structure tool
+FabledSkyBlock+fabledskyblock.admin.structure+ Allows an admin to save a structure by name.+/island admin structure save
+FabledSkyBlock+fabledskyblock.admin.help+Displays help menu for admins.+/island admin
+FabledSkyBlock+fabledskyblock.admin.settings+Gives access to the admin help menu.+/island admin settings
+FabledSkyBlock+fabledskyblock.admin.refreshholograms+Allows admin to refresh holograms.+/is admin refreshholograms
+FabledSkyBlock+fabledskyblock.admin.setbiome+Allows admin to set an islands biome.+/is admin setbiome
+FabledSkyBlock+fabledskyblock.admin.reload+Allows admin to reload FSB's config.+/is admin reload
+FabledSkyBlock+fabledskyblock.admin.*+Grants every admin permission and command.
+FabledSkyBlock+fabledskyblock.*+Grants every permission and command.
+FabledSkyBlock+fabledskyblock.biome.badlands+Badlands
+FabledSkyBlock+fabledskyblock.biome.dark_forest+Dark Forest
+FabledSkyBlock+fabledskyblock.biome.forest+Forest
+FabledSkyBlock+fabledskyblock.biome.mountains+Mountains
+FabledSkyBlock+fabledskyblock.biome.nether+Nether
+FabledSkyBlock+fabledskyblock.biome.plains+Plains
+FabledSkyBlock+fabledskyblock.biome.river+River
+FabledSkyBlock+fabledskyblock.biome.savanna+Savanna
+FabledSkyBlock+fabledskyblock.biome.snowy_beach+Snowy Beach
+FabledSkyBlock+fabledskyblock.biome.swamp+Swamp
+FabledSkyBlock+fabledskyblock.biome.taiga+Taiga
+FabledSkyBlock+fabledskyblock.biome.the_end+The End
+FabledSkyBlock+fabledskyblock.biome.the_void+The Void
+FabledSkyBlock+fabledskyblock.biome.warm_ocean+Warm Ocean
+FabledSkyBlock+fabledskyblock.biome.*+Grants ALL biomes.
 Factions+factions.map+show the territory map, and set optional auto update+/f map
 Factions+factions.mod+give or revoke moderator rights+/f mod
 Factions+factions.*+This is just an alias for factions.kit.admin
