@@ -2384,6 +2384,109 @@ GriefPrevention+griefprevention.siegeimmune+Makes a player immune to the /siege 
 GriefPrevention+griefprevention.spam+Allows the player to bypass the spam protection.
 GriefPrevention+griefprevention.transferclaim+Grants access to the /transferclaim command.+/transferclaim
 GriefPrevention+griefprevention.visualizenearbyclaims+s 	Allows the player to shift+right click with investigation tool (stick) in hand to see all nearby land claims.
+Hawn+hawn.admin+Baseline admin permission and grants access to set the spawn+/setspawn,/delspawn
+Hawn+hawn.admin.*+Gives the player access to all admin commands
+Hawn+hawn.admin.command.bypassbuild+The player can bypass build protection temporarily+/hawn build
+Hawn+hawn.admin.command.hooks+Grants the player the ability to see Hawn's hooks+/hawn hooks
+Hawn+hawn.admin.command.info+Allows the player to see Hawn's version, the server's tps, and server information+/hawn version,/hawn tps,/hawn info
+Hawn+hawn.admin.command.reload+Allows the player to reload Hawn+/hawn reload,/hawn rl
+Hawn+hawn.adminpanel+Allows the player to edit the config ingame+/ap,/adminpanel,/paneladmin,/pa
+Hawn+hawn.antiswear.benotified+Allows the player to get notifications when a player swears
+Hawn+hawn.betweenservers.keepvanish+Allows the player to stay vanished when switching servers
+Hawn+hawn.betweenservers.tplastposition+Allows the player to teleport to their last location instead of teleporting to spawn on server change
+Hawn+hawn.bypass.PlayerInteractEntity+Allows the player to interact with entities
+Hawn+hawn.bypass.antidamage+Allows the player to bypass the damage restrictions
+Hawn+hawn.bypass.antiswear+Allows the player to swear
+Hawn+hawn.bypass.foodkeep+Allows the player to bypass maintaining hunger restrictions
+Hawn+hawn.bypass.foodrestore+Disables full hunger on server join (they will have the hunger that they logged out with)
+Hawn+hawn.bypass.gamemodeonjoin+Allows the player to bypass the default gamemode
+Hawn+hawn.bypass.healthrestore+Disables full health on server join (they will have the health that they logged out with)
+Hawn+hawn.bypass.keepgamemode+Allows the player to keep their gamemode
+Hawn+hawn.bypass.voidtp+Allows the player to fall into the void instead of being teleported to the spawn
+Hawn+hawn.chat.can.mention+Allows the player to mention other players
+Hawn+hawn.command.broadcast+Allows the player to broadcast a message+/broadcast,/bc <msg>
+Hawn+hawn.command.clearchat.anonymous+Clears the chat anonymously+/cc a <reason>
+Hawn+hawn.command.clearchat.help+Helps the player regarding clearing the chat+/cc
+Hawn+hawn.command.clearchat.normal+Allows the player to clear the chat+/cc c <reason>
+Hawn+hawn.command.clearchat.other+Allows the player to clear someone else's chat+/cc other <player> <reason>
+Hawn+hawn.command.clearchat.own+Allows the player to clear their own chat+/cc o
+Hawn+hawn.command.clearinv+Allows the player to clear their own inventory+/clearinv
+Hawn+hawn.command.clearinv.others+Allows the player to clear other players inventories+/clearinv <player>
+Hawn+hawn.command.delaychat+Allows the player to put a delay on the chat+/delaychat,/dchat <number>
+Hawn+hawn.command.fly+Allows the player to have the ability to fly+/fly
+Hawn+hawn.command.fly.others+Allows the player to change if other players can fly or not+/fly <player>
+Hawn+hawn.command.gamemode.other+Allows the player to change other player's gamemode+/gm <mode name> <player>
+Hawn+hawn.command.gamemode.self+Allows the player to change their own gamemode+/gmc,/gms,/gma,/gmsp
+Hawn+hawn.command.heal+Allows the player to heal themselves+/heal
+Hawn+hawn.command.heal.other+Allows the player to heal other players+/heal <player>
+Hawn+hawn.command.help+Gives the player the ability to get help+/help,/?
+Hawn+hawn.command.mutechat+Allows the player to mute the chat+/globalmute,/gmute
+Hawn+hawn.command.optionplayer.doublejump+Allows the player to have access to player options regarding the players double jump ability
+Hawn+hawn.command.optionplayer.jumpboost+Allows the player to have access to player options regarding the players jump boost
+Hawn+hawn.command.optionplayer.main+Allows the player to have access to options for players+/option
+Hawn+hawn.command.optionplayer.pv+Allows the player to have access to player options regarding player visibility
+Hawn+hawn.command.optionplayer.speed+Allows the player to control player's speed+/option speed <number>
+Hawn+hawn.command.optionplayer.speed.priorityoptionplayer+Allows the player to control player's default speed
+Hawn+hawn.command.ping.other+Grants the ability to see the ping of another player+/ping <player>
+Hawn+hawn.command.ping.self+Grants the ability to see your own ping+/ping
+Hawn+hawn.command.scoreboard.toggle+Allows the player to turn their scoreboard on or off+/scoreboard
+Hawn+hawn.command.spawn+Allows the player to teleport to spawn+/spawn,/lobby,/hub
+Hawn+hawn.command.spawn.other.bypassdelay+Allows the player to bypass the Spawn teleport delay for other players that they teleport
+Hawn+hawn.command.spawn.self.bypassdelay+Allows the player to bypass the Spawn teleport delay
+Hawn+hawn.command.spawn.teleportothers+Allows the player to teleport other players to spawn+/spawn tp <player>
+Hawn+hawn.command.time.day+Allows the player to set the time to day+/day
+Hawn+hawn.command.time.night+Allows the player to set the time to night+/night
+Hawn+hawn.command.titleannouncer+Allows the player to broadcast a title+/btcast,/ta,/titlea,/titleannouncer
+Hawn+hawn.command.vanish+Allows the player to go into vanish mode+/vanish,/v
+Hawn+hawn.command.vanish.actionbar+Allows the player to see if they are in vanish or not
+Hawn+hawn.command.vanish.others+/vanish+/vanish <player>
+Hawn+hawn.command.warning+Allows the player to warn other players+/warning,/warn <message>
+Hawn+hawn.command.warp+Allows the player to teleport to warps+/warp <warp name>
+Hawn+hawn.command.warp.bypassdelay.other+Disables the delay when the player teleports another player to a warp
+Hawn+hawn.command.warp.bypassdelay.self+Allows the player to bypass the warp delay
+Hawn+hawn.command.warp.delwarp+Allows the player delete a warp+/delwarp <warp name>
+Hawn+hawn.command.warp.others+Allows the player to teleport other players to a warp+/warp <warp name> <player>
+Hawn+hawn.command.warp.setwarp+Allows the player to set a warp+/setwarp <warp name>
+Hawn+hawn.command.warp.warplist+Allows the player to see a list of warps+/warplist
+Hawn+hawn.command.weather.rain+Allows the player to set the weather to rain+/rain
+Hawn+hawn.command.weather.sun+Allows the player to clear the weather+/sun,/clearw
+Hawn+hawn.command.weather.thunder+Allows the player to set the weather to a thunderstorm+/thunder
+Hawn+hawn.emoji.chat+Allows the player to use emojis in chat
+Hawn+hawn.event.bypass.blockcommands+Allows the player to run blocked commands
+Hawn+hawn.event.chat.bypass.chatdelay+Allows the player to bypass the chat delay (if enabled)
+Hawn+hawn.event.chat.bypass.mutechat+Allows the player to talk even while the chat is muted
+Hawn+hawn.event.construct.bypass.break+Allows the player to bypass Hawn's world protection
+Hawn+hawn.event.construct.bypass.place+Allows the player to bypass Hawn's world protection
+Hawn+hawn.event.death.bypass.cleardrop+Allows the player to keep their inventory on death
+Hawn+hawn.event.interact.item.playervisibility+Allows the player to toggle weather they can see player or not given the item
+Hawn+hawn.event.onjoin.bypass.clearchat+Allows the player to join without the chat clearing
+Hawn+hawn.event.onjoin.bypass.clearinv+Allows the player to join the server without their inventory being cleared
+Hawn+hawn.event.onjoin.bypass.firework+Allows the player to join the server without fireworks spawning
+Hawn+hawn.event.onjoin.bypass.lightningstrike+Allows the player to bypass the lightnight strike on join
+Hawn+hawn.event.playeritem.bypass.damageitem+Allows the player to damage the items they use
+Hawn+hawn.event.playeritem.bypass.drop+Allows the player to drop items
+Hawn+hawn.event.playeritem.bypass.moveitem+Allows the player to move items in their inventory
+Hawn+hawn.event.playeritem.bypass.pickup+Allows the player to pickup items
+Hawn+hawn.event.respawn+Allows the player to respawn if the config requires the permission (PlayerEvents.yml)
+Hawn+hawn.event.silentjoin+Allows the player to join the server silently
+Hawn+hawn.event.silentquit+Allows the player to leave the server silently
+Hawn+hawn.event.warn.tps+Allows the player to see TPS warnings
+Hawn+hawn.fun.doublejump.double+Allows the player to have the ability to double jump
+Hawn+hawn.fun.jumppads+Allows the player to use jumppads
+Hawn+hawn.get.autobroadcast+Allows the player to get autobroadcasts
+Hawn+hawn.get.autobroadcast_ab+Allows the player to get autobroadcasts
+Hawn+hawn.get.autobroadcast_titles+Allows the player to get title autobroadcasts
+Hawn+hawn.join.full+Allows the player to join ful servers
+Hawn+hawn.onjoin.fly+Allows the player to be in fly mode when they join the server
+Hawn+hawn.onjoin.playeroption.speed+The player gains the config determined speed value on speed
+Hawn+hawn.onjoin.poition.blindness+Allows the player to get the blindness effect on join (determined based on config)
+Hawn+hawn.onjoin.poition.jump+Allows the player to get a jump boost on join (determined based on conifg)
+Hawn+hawn.scoreboard-keep-scoreboard-change+Allows the player to keep their current scoreboard on server switch+/scoreboard keep
+Hawn+hawn.scoreboard.command.set+Allows the player to change the scoreboard they see+/scoreboard set <scoreboard's file name>
+Hawn+hawn.sign.color+Allows the player to use color in their signs
+Hawn+hawn.staff.seevanished+Allows the player to see vanished players
+Hawn+hawn.use.chatcolor.chat+Allows the player to use color in their chat messages
+Hawn+hawn.use.gui.emojilist+Allows the player to see a list of emoji's+/emoji
 HeadDatabase+headdb.admin+reloads config.+/hdb reload,/hdb update,/hdb random,/hdb give
 HeadDatabase+headdb.allowBuy.alphabet+allows the player to buy heads from alphabet.
 HeadDatabase+headdb.allowBuy.blocks+allows the player to buy heads from blocks.
