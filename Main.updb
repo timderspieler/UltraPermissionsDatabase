@@ -1552,10 +1552,10 @@ CreditCard+creditcard.use.loan.ranktwo+Permission to owe $2000 or less debt.
 CreditCard+creditcard.use.owe+Permission to see the amount you owe.+/CreditCard owe
 CreditCard+creditcard.use.pay+Permission to pay back the amount you owe.+/CreditCard pay
 CreditCard+creditcard.use.reg+Permission to createUser for a credit-card.+/CreditCard createUser
-ChunckBuster+chunckbuster.admin+Chunck Buster Admin+/chunckbuster
-ChunckBuster+chunckbuster.give+Gives a chunckbuster/cb give
-ChunckBuster+chunckbuster.reload+reload chunckbuster+/cb reload
-ChunckBuster+chunckbuster.use+use a chunkbuster
+ChunkBuster+chunkbuster.admin+Chunk Buster Admin+/chunkbuster
+ChunkBuster+chunkbuster.give+Gives a chunkbuster+/cb give
+ChunkBuster+chunkbuster.reload+Reloads the plugin+/cb reload
+ChunkBuster+chunkbuster.use+use a chunkbuster
 CustomEnderChest+CustomEnderChest.admin+Access to administration command to open and edit or delete other players enderchests, and reload the plugin config.+/ec reload,/ec open,/ec delete
 CustomEnderChest+CustomEnderChest.commands+Allows players to open the EnderChest with command /customec open.+/customec open,/ec open
 CustomEnderChest+CustomEnderChest.level.0+For 9 slots (1 raw) EnderChest size.
