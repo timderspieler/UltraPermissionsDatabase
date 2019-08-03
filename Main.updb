@@ -2400,6 +2400,7 @@ Hawn+hawn.bypass.antiswear+Allows the player to swear
 Hawn+hawn.bypass.foodkeep+Allows the player to bypass maintaining hunger restrictions
 Hawn+hawn.bypass.foodrestore+Disables full hunger on server join (they will have the hunger that they logged out with)
 Hawn+hawn.bypass.gamemodeonjoin+Allows the player to bypass the default gamemode
+Hawn+hawn.bypass.HagingBreakByEntity+Allows the player to break items (such as item frames)
 Hawn+hawn.bypass.healthrestore+Disables full health on server join (they will have the health that they logged out with)
 Hawn+hawn.bypass.keepgamemode+Allows the player to keep their gamemode
 Hawn+hawn.bypass.voidtp+Allows the player to fall into the void instead of being teleported to the spawn
@@ -2439,7 +2440,7 @@ Hawn+hawn.command.time.night+Allows the player to set the time to night+/night
 Hawn+hawn.command.titleannouncer+Allows the player to broadcast a title+/btcast,/ta,/titlea,/titleannouncer
 Hawn+hawn.command.vanish+Allows the player to go into vanish mode+/vanish,/v
 Hawn+hawn.command.vanish.actionbar+Allows the player to see if they are in vanish or not
-Hawn+hawn.command.vanish.others+/vanish+/vanish <player>
+Hawn+hawn.command.vanish.others+Allows the player to set vanish mode of other players+/vanish <player>
 Hawn+hawn.command.warning+Allows the player to warn other players+/warning,/warn <message>
 Hawn+hawn.command.warp+Allows the player to teleport to warps+/warp <warp name>
 Hawn+hawn.command.warp.bypassdelay.other+Disables the delay when the player teleports another player to a warp
