@@ -1629,11 +1629,18 @@ DeathManager+deathmanager.death.compass+Allows players to acquire a Death Compas
 DeathManager+deathmanager.death.messages+Allows messages to be altered for the player.
 DeathManager+deathmanager.death.totem+Allows a player to be revived by a Totem.}
 DeathManager+deathmanager.death.totem.give+Gives a player a totem when they join the server.
-DeluxeCombat+deluxecombat.bypasscommand+Lets you still use blocked commands while in combat.
+DeluxeCombat+deluxecombat.bypasscommand+Use blocked commands in combat
 DeluxeCombat+deluxecombat.bypasshitdelay+Lets you exceed the limit of the hit delay to maximum.
-DeluxeCombat+deluxecombat.bypassquit+Lets you quit while in combat without any bad punishments.
-DeluxeCombat+deluxecombat.bypassworld+Lets you still combat tag someone else in a disabled world.
-DeluxeCombat+deluxecombat.secretmeme+Memes are included, who knows what this permission will do...
+DeluxeCombat+deluxecombat.bypassquit+Lets you quit while in combat without any punishments.
+DeluxeCombat+deluxecombat.status.check+Check your combat stats+/dc status
+DeluxeCombat+deluxecombat.status.check.other+Check the combat status of other players+/dc status (Player)
+DeluxeCombat+deluxecombat.stats.check+Check your pvp stats+/dc stats
+DeluxeCombat+deluxecombat.stats.check.other+Check the pvp stats of other players+/dc stats (Player)
+DeluxeCombat+deluxecombat.stats.reset+Reset your pvp stats+/dc resetStats
+DeluxeCombat+deluxecombat.stats.reset.other+Reset the pvp stats of other players+/dc resetStats (Player)
+DeluxeCombat+deluxecombat.bypass.enderpearl+Bypass the enderpearl restrictions
+DeluxeCombat+deluxecombat.bypass.chorusfruit+Bypass the chorus fruit restrictions
+DeluxeCombat+deluxecombat.admin+Full grant to all admin commands+/dc reload,/dc settings, /dc createSign, /dc createHologram, /dc clearHolograms, /dc clearcorpses, /dc clearncps
 DeluxePlayerOptions+playeroptions.chat+Enable/Disable chat/radio mode.+/Chat,/radio
 DeluxePlayerOptions+playeroptions.doublejump+Enable/Disable doublejump mode.+/DoubleJump
 DeluxePlayerOptions+playeroptions.fly+Enable/Disable fly mode.+/Fly
