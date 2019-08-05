@@ -3220,6 +3220,30 @@ Multiverse-Core+multiverse.core.spawn.set+Sets the respawn point for the current
 Multiverse-Core+multiverse.core.unload+Unloads a world from the Bukkit server.+/mv unload,/mvunload
 Multiverse-Core+multiverse.help+Displays the Multiverse help pages.+/mv,/mvh,/mvhelp,/mv help,/mvsearch,/mv search
 Multiverse-Core+multiverse.sleep+WARNING THIS COMMAND IS CURRENTLY BROKEN!!! Takes you to the last bed you slept in.+/mv sleep
+Multiverse-Inventories+multiverse.inventories.info+Displays information about a world or group+/mvinv info {WORLD|GROUP}
+Multiverse-Inventories+multiverse.inventories.import+Imports data from MultiInv/WorldInventories+/mvinv import {MultiInv|WorldInventories}
+Multiverse-Inventories+multiverse.inventories.list+Displays a list of groups+/mvinv list
+Multiverse-Inventories+multiverse.inventories.reload+Reloads config file+/mvinv reload
+Multiverse-Inventories+mvinv.bypass.group.[Group]+Allows a player to bypass group settings for the specified group
+Multiverse-Inventories+mvinv.bypass.world.[World]+Allows a player to bypass group settings for the specified world
+Multiverse-Inventories+mvinv.bypass.group.*+Allows a player to bypass group settings for all groups
+Multiverse-Inventories+mvinv.bypass.world.*+Allows a player to bypass group settings for all worlds
+Multiverse-Inventories+mvinv.bypass.*+Allows a player to bypass group settings for all groups and worlds
+Multiverse-Portals+multiverse.portal.access.+Allows a player to use all portals
+Multiverse-Portals+multiverse.portal.access.(PORTALNAME)+Allows a player to use a portal
+Multiverse-Portals+multiverse.portal.config+Allows you to set global MV portal values.
+Multiverse-Portals+multiverse.portal.create+Allows a player to create a portal
+Multiverse-Portals+multiverse.portal.debug+ Extra information regarding protal use is sent to consule for error checking
+Multiverse-Portals+multiverse.portal.exempt.+Allows a player to use all portals free of charge
+Multiverse-Portals+multiverse.portal.exempt.(PORTALNAME)+Allows a player to use a portal free of charge
+Multiverse-Portals+multiverse.portal.fill.*+Allows player to fill all portals with lava/water
+Multiverse-Portals+multiverse.portal.fill.(PORTALNAME)+Allows player to fill a portal with lava/water
+Multiverse-Portals+multiverse.portal.givewand+Allows the player to spawn a wand (if WorldEdit is installed, will use Worldedit wand)
+Multiverse-Portals+multiverse.portal.info+Displays Information about a portal
+Multiverse-Portals+multiverse.portal.list+Lists portals on the server created with Multiverse-Portals
+Multiverse-Portals+multiverse.portal.modify+Allows you to modify set portal values
+Multiverse-Portals+multiverse.portal.remove+Allows you to remove a portal
+Multiverse-Portals+multiverse.portal.select+Allows you to select a portal (If using world edit use wooden Axe or any other form of /pos)
 Multiverse-NetherPortals+multiverse.netherportals.link+Sets the destination world of nether portals in another.+/mvnp link,/mvnpl,/mvnplink
 Multiverse-NetherPortals+multiverse.netherportals.show+Displays all Nether Portal Links that exist.+/mvnp show,/mvnps,/mvnpshow,/mvnp list,/mvnpli,/mvnplist
 Multiverse-NetherPortals+multiverse.netherportals.unlink+Removes a NetherPortal world link.+/mvnp unlink,/mvnpu,/mvnpunlink
