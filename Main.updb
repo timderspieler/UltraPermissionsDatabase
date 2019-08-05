@@ -12,6 +12,24 @@ AAC+AAC.kick+Kill, kick and broadcast a message.+/aackick
 AAC+AAC.notify+Send/recieve staff chat and aac's notifications. ( Send a message to all people with the AAC.notify permission. Will be called by the staff chat prefix.)+/aacstaffnotify
 AAC+AAC.unban+Unban players banned by AAC.+/aacunban
 AAC+AAC.verbose+Receive detailed information on suspected players.
+AdvancedHelp+help.use+for normal players to use /help+/help,/help <page number>,/help <categoryName>,/help <categoryName> <page number>
+AdvancedHelp+help.reload+for admins to reload config+/ahelp reload
+AdvancedHelp+help.[categoryName]+allows players to view a specific category, only need this permission if the 'default' is set to false.
+AdvancedHelp+help.override+when using /? it will show bukkit help pages not AdvancedHelp's help pages.
+AntiVPN+avpn.admin+Allows access to the commands+/avpn reload,/avpn test,/avpn check,/avpn score
+AntiVPN+avpn.bypass+Players with this node bypass the filter entirely
+ArmorStandTools+astools.command+Permission for the /astools command+/astools,/ast
+ArmorStandTools+astools.reload+Permission to reload the plugin+/astools reload
+ArmorStandTools+astools.use+Permission for using any of the tools (except for the ones listed below that have their own separate permissions)
+ArmorStandTools+astools.clone+Permission to use the clone tool
+ArmorStandTools+astools.summon+Permission to use the summon tool (Summons an armor stand without requiring the materials)
+ArmorStandTools+astools.head+Permission to use the player head tool (Ability to specify a player head for an armor stand)
+ArmorStandTools+astools.cmdblock+Permission to use the save tool (Create a command block)
+ArmorStandTools+astools.ascmd.assign.console+Permission to assign a console command to an armor stand+/ascmd assign console <command>
+ArmorStandTools+astools.ascmd.assign.player+Permission to assign a player command to an armor stand+/ascmd assign player <command>
+ArmorStandTools+astools.ascmd.remove+Permission to remove a command from an armor stand+/ascmd remove
+ArmorStandTools+astools.ascmd.view+Permission to view the command assigned to an armor stand+/ascmd view
+ArmorStandTools+astools.ascmd.execute+Permission to execute a command assigned to an armor stand by (on right click)
 ASkyBlock+askyblock.*+This will give every admin and mod permission, but also permissions like exclusion from the top ten.
 ASkyBlock+askyblock.admin.*+Allow all permissions of the Admin permissions
 ASkyBlock+askyblock.admin.clearresetall+Allow clearing of island reset limit of all players+/asadmin clearreset
@@ -1564,6 +1582,9 @@ CustomEnderChest+CustomEnderChest.level.2+For 27 slots (3 raw's) EnderChest size
 CustomEnderChest+CustomEnderChest.level.3+For 36 slots (4 raw's) EnderChest size.
 CustomEnderChest+CustomEnderChest.level.4+For 45 slots (5 raw's) EnderChest size.
 CustomEnderChest+CustomEnderChest.level.5+For 54 slots (6 raw's) EnderChest size.
+Custom-Images+image.manage.create+To create an image then right click the top left of where you want the image to be+/image create <file name>
+Custom-Images+image.manage.delete+To delete an image then just right click the image to delete+/image delete
+Custom-Images+image.manage.options+To see all the file options of images that you can click to create+/image options
 CustomRecipe+anvil.colorize+ability to colorize name using anvil
 CustomRecipe+anvil.command+ability to add command to an item using anvil
 CustomRecipe+customrecipe.clear+ability to clear recipes+/customrecipe clear
@@ -1714,6 +1735,31 @@ EnchantmentBookTool+enchantmentbooktool.admin+Issue an EBook to <player> without
 EnchantmentBookTool+enchantmentbooktool.debug+Turn on / off the debug mode+/ebtool debug
 EnchantmentBookTool+enchantmentbooktool.get+allows you to use /ebtool get command+/ebtool get
 EnchantmentBookTool+enchantmentbooktool.reload+Allows you to use /ebtool reload command+/ebtool reload
+Enjin-Minecraft-Plugin+enjin.setkey+Allows the player to set the key for the plugin
+Enjin-Minecraft-Plugin+enjin.report+Allows the player to generate a debug report for submitting to enjin or other plugin authors
+Enjin-Minecraft-Plugin+enjin.debug+Turns debugging on/off for this session
+Enjin-Minecraft-Plugin+enjin.push+Allows the player to use the /enjin push command+/enjin push
+Enjin-Minecraft-Plugin+enjin.broadcast+Allows the player to use the /enjin broadcast command+/enjin broadcast
+Enjin-Minecraft-Plugin+enjin.inform+Allows the player to use the /enjin inform command+/enjin inform
+Enjin-Minecraft-Plugin+enjin.lag+Allows the player to use the /enjin lag command+/enjin lag
+Enjin-Minecraft-Plugin+enjin.give+Allows the player to give items to players using the /enjin give command+/enjin give
+Enjin-Minecraft-Plugin+enjin.notify.*+Player gets all notifications from the plugin
+Enjin-Minecraft-Plugin+enjin.notify.connectionstatus+Player gets informed at login and real time if the plugin loses connection or regains connection to Enjin
+Enjin-Minecraft-Plugin+enjin.notify.update+Player gets informed of pending updates to the Enjin Minecraft Plugin
+Enjin-Minecraft-Plugin+enjin.notify.failedupdate+Player gets informed of any failed updates
+Enjin-Minecraft-Plugin+enjin.notify.invalidauthkey+Player gets informed if the auth key is invalid
+Enjin-Minecraft-Plugin+enjin.notify.permissionsnotworking+Player gets informed if the permissions plugin isn't working correctly
+Enjin-Minecraft-Plugin+enjin.notify.econoutdated+Player gets informed if your economy plugin doesn't support the new UUID methods in Vault 1.4.1
+Enjin-Minecraft-Plugin+enjin.notify.mcmmooutdated+Player gets informed if your version of mcMMO is not supported.
+Enjin-Minecraft-Plugin+enjin.updateheads+Allows the player to force a sync of the heads/sign stats
+Enjin-Minecraft-Plugin+enjin.sign.set+Allows the player to create an enjin stats sign
+Enjin-Minecraft-Plugin+enjin.sign.remove+Allows the player to remove an enjin stats sign/headen
+Enjin-Minecraft-Plugin+enjin.points.add+Allows the player to add points to players
+Enjin-Minecraft-Plugin+enjin.points.remove+Allows the player to remove points from a player
+Enjin-Minecraft-Plugin+enjin.points.set+Allows the player to set the points of a player to a specific amount
+Enjin-Minecraft-Plugin+enjin.points.getothers+Allows the player to see the amount of points another player has
+Enjin-Minecraft-Plugin+enjin.points.getself+Allows the player to see how many points they have (this defaults to everyone)
+Enjin-Minecraft-Plugin+enjin.tags.view+Allows the player to see the tags of a player
 EpicDispensers+EpicDispensers.Upgrade.ECO+Allows the player to upgrade the dispensers level with economy
 EpicDispensers+EpicDispensers.Upgrade.XP+Allows the player to upgrade the dispensers level with XP
 EpicDispensers+EpicDispensers.admin+Gives the player access to all commands
@@ -1746,6 +1792,10 @@ EpicSpawners+epicspawners.shop.*+This will depict what spawners players will see
 EpicSpawners+epicspawners.silkdrop.*+This will allow players to receive a spawner when they mine it with a silk touch pickaxe. You can configure the plugin to only allow specific spawners to be mined. You can make any preferred changes in the configuration file, or add them as a permission. (Example: epicspawners.silkdrop.pig)
 EpicSpawners+epicspawners.stack.*+Permission to stack spawners
 EpicSpawners+epicspawners.stats+This will allow a player to access the /spawnerstats command, so that they may view their EpicSpawner stats, including but not limited to, how many kills they must get to receive a specific spawner as a drop.
+EpicSkyblock+EpicSkyblock.reload+Reloads ES Config+/is reload
+EpicSkyblock+EpicSkyblock.givecrystals+Gives a player crystals.
+EpicSkyblock+EpicSkyblock.removecrystals+Removes Crystals from player
+EpicSkyblock+EpicSkyblock.fly+Allows a player to fly.+/is fly
 Essentials+essentials.afk+Allow access to the /afk command.+/afk
 Essentials+essentials.afk.auto+Players with this permission will be set to afk after a period of inaction as defined in the config file.
 Essentials+essentials.afk.kickexempt+Exempts the user from being auto kicked for AFK
@@ -2277,6 +2327,7 @@ FactionsPet+factionspets.command.gui+With this command you can open a gui for th
 FactionsPet+factionspets.command.here+With this command you can spawn the pet+/pet here
 FactionsPet+factionspets.command.info+This command shows you pet info+/pet info
 FactionsPet+factionspets.command.name+With this command you can change pet name+/pet name
+FactionsShop+factionsshop.reload+Reloads plugin+/fs reload
 Factionstop+factionstop.recalculate+Recalculate all faction values+/ftoprecalculate
 Factionstop+factionstop.reload+Reload the plugin settings.+/ftopreloaod
 Factionstop+factionstop.sign.break+Allows Break FactionsTop ranking signs.
@@ -3550,6 +3601,14 @@ PlotSquared+plots.flag.notify_enter.bypass+An unknown description
 PlotSquared+plots.flag.notify_leave.bypass+An unknown description
 PlotSquared+plots.use+Allows user to use commands.
 PlotSquared+plots.worldedit.bypass+Bypass Worldedit restriction.
+PluginManager++pluginmanager.enable+Enables a plugin+/plm enable <plugin>
+PluginManager++pluginmanager.disable+Disables a plugin+/plm disable <plugin>
+PluginManager++pluginmanager.load+Load a plugin's .jar to the server+/plm load <file>
+PluginManager++pluginmanager.unload+Disables a plugin, then unloads it from the server+/plm unload <plugin>
+PluginManager++pluginmanager.reload+Unloads and then loads the plugin+/plm reload <plugin>
+PluginManager++pluginmanager.sreload+Disables and then enables the plugin+/plm sreload <plugin>
+PluginManager++pluginmanager.show+Show's detailed information about the plugin+/plm show <plugin>
+PluginManager++pluginmanager.list+Lists plugins based on arguments below.+/plm list [options]
 ProVotes+provotes.backup+Allows the player to use the backup command.+/pvotes backup
 ProVotes+provotes.command+Allows the player to use the default vote command.+/vote
 ProVotes+provotes.forcemonth+Allows the player to use the force month command.+/pvotes forcemonth
@@ -3869,6 +3928,10 @@ ReportPlus+ReportPlus.vanish.see+Allow to see vanished players.
 RunAsConsole+rac.info+Allow Use Of The /runasconsole command+/runasconsole
 RunAsConsole+rac.use+Allow Use Of The /console command+/console
 Secrets+secret.admin+Needed for sign creation.
+ServerRestart+srt.reload+Reload configuration+/srt reload
+ServerRestart+srt.check+See next scheduled restart time+/srt check
+ServerRestart+srt.skip+Skips scheduled restart to next one+/srt skip
+ServerRestart+srt.frestart+Schedule force restart in N seconds (or immediately if not specified)+/srt frestart [seconds]
 ServerRestorer+serverrestorer.*+Grants all permissions from the plugin
 ServerRestorer+serverrestorer.restore+Ability to use the restore command (restores the server)+/sr restore
 ServerRestorer+serverrestorer.save+Ability to use the save command (saves the server)+/sr save
@@ -4057,6 +4120,19 @@ SpawnJoin+SpawnJoin.tp.other+TP an other to the spawn+/spawntp [playername]
 StaffChat+staff.chat+Allow players to use the Staff Chat.
 StaffChat+staff.chat.enable+Allow players to disable the plugin.+/staffchat
 StaffChat+staff.chat.reload+Allow players to reload the config.+/staffchat reload
+StaffChatReloaded+staffchat.send+Allows player to send messages to staff chat+/staffchat [message]
+StaffChatReloaded+staffchat.toggle+Allows player to toggle the StaffChat
+StaffChatReloaded+staffchat.receive+Allows player to receive the StaffChat messages
+StaffChatReloaded+staffchat.mc.send+Allows player to send messages to mod chat+/modchat [message]
+StaffChatReloaded+staffchat.mc.receive+Allows player to receive the ModChat messages
+StaffChatReloaded+staffchat.ac.send+Allows player to send messages to amin chat+/adminchat [message]
+StaffChatReloaded+staffchat.ac.receive+Allows player to receive the AdminChat messages
+StaffChatReloaded+staffchat.hc.send+Allows player to send messages to helper chat+/helperchat [message]
+StaffChatReloaded+staffchat.hc.receive+Allows player to receive the HelperChat messages
+StaffChatReloaded+staffchat.reload+Allows player to reload the plugin+/screload
+StaffChatReloaded+staffchat.about+Allows player to see the help screen+/schelp
+StaffChatReloaded+staffchat.version+Allows player to type /scversion New!
+StaffChatReloaded+staffchat.*+It gives player all the mentioned permissions
 StaffCore+staffcore.addnote+Allows staff to add notes to a player.
 StaffCore+staffcore.adminchat+Allows the player to use the admin chat.
 StaffCore+staffcore.alts+Allows staff to see the alts of a player.
